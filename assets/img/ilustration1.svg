@@ -1,0 +1,16 @@
+<svg width="180" height="200" viewBox="0 0 180 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_4553_401" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="200">
+<path id="Rectangle 17" d="M180 24C180 10.7452 169.255 0 156 0H24C10.7452 0 0 10.7452 0 24V176C0 189.255 10.7452 200 24 200H156C169.255 200 180 189.255 180 176V24Z" fill="url(#paint0_radial_4553_401)"/>
+</mask>
+<g mask="url(#mask0_4553_401)">
+<circle id="Ellipse 52" cx="160" cy="38" r="84.5" stroke="#BFF0FF" stroke-width="7"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_4553_401" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(260.66 118.655) rotate(180) scale(319.67 207.488)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="181" height="200" viewBox="0 0 181 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_4553_1940" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="181" height="200">
+<rect id="Rectangle 17" width="180" height="200" rx="24" transform="matrix(-1 0 0 1 180.333 0)" fill="url(#paint0_radial_4553_1940)"/>
+</mask>
+<g mask="url(#mask0_4553_1940)">
+<path id="V" d="M91.6879 168L38.3334 -1.14428V-15H109.041L135.977 88.2643H136.754L163.95 -15H225.333V-1.14428L172.238 168H91.6879Z" fill="url(#paint1_linear_4553_1940)"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_4553_1940" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-80.6604 118.655) scale(319.67 207.488)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="paint1_linear_4553_1940" x1="131.833" y1="-3.31057" x2="132.029" y2="198.634" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.15"/>
+<stop offset="1" stop-color="#231F20" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

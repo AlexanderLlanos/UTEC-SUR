@@ -1,0 +1,2842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>UTEC - Institucional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+  <script src="assets/tailwindcss/tailwindcss.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/micromodal.min.js"></script>
+  <link rel="stylesheet" href="assets/css/common/icons.css" />
+  <link rel="stylesheet" href="assets/css/common/fonts.css" />
+  <link rel="stylesheet" href="assets/css/common/main.css" />
+  <link rel="stylesheet" href="assets/css/common/button.css" />
+  <link rel="stylesheet" href="assets/css/micromodal.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="main-header" class="bg-white border-b border-[#CADAEF] w-full h-[96px] lg:h-[138px] fixed z-20 top-0 ">
+    <div class="bg-[#F3F8FF] px-5 lg:px-10 py-[10px] hidden lg:block">
+      <div class="flex items-center gap-6">
+        <a class="text-[#5F6480] text-stag" href="">Estudiantes</a>
+        <a class="text-[#5F6480] text-stag" href="">Docentes</a>
+        <a class="text-[#5F6480] text-stag" href="">Alumni</a>
+        <a class="text-[#5F6480] text-stag" href="">Intranet</a>
+      </div>
+    </div>
+    <div class="flex items-center justify-between h-[96px] px-5 lg:px-10">
+      <div class="flex gap-10 items-center">
+        <div class="hidden lg:block">
+          <a href="./home.html">
+            <img class="h-[44px]" src="./assets/img/logo.svg" alt="">
+          </a>
+        </div>
+        <div class="lg:hidden">
+          <a href="./home.html">
+            <img class="h-[44px]" src="./assets/img/logo-mobile.svg" alt="">
+          </a>
+        </div>
+        <nav id="super-menu" class="hidden lg:block">
+          <ul class="flex items-center gap-6">
+            <li class="menu-item">
+              <button
+                class="menu-item-option block py-[34px] text-[#231F20] text-adelle relative lg:hover:before-[''] lg:hover:before:h-[3px] lg:hover:before:absolute lg:hover:before:w-full lg:hover:before:bottom-0 lg:hover:before:left-0 lg:hover:before:right-0 lg:hover:before:bg-gradient-to-r lg:hover:before:from-[#00BFFF] lg:hover:before:to-[#0FF0FF]">Conócenos</button>
+              <div
+                class="submenu bg-white absolute left-0 right-0 min-h-[532px] tab-submenu after:left-0 after:right-0 after:top-0 after:bottom-0 after:h-screen after:bg-[#00000080] after:pointer-events-none after:z-[-1] after:absolute after:content-['']"
+                id="myTabsSubmenuInfo">
+                <div class="flex h-full min-h-[532px]">
+                  <div
+                    class="min-w-[329px] max-w-[329px] border-r border-[#CADAEF] px-6 py-10 flex flex-col justify-between">
+                    <div class="flex items-start flex-col gap-6">
+                      <button onclick="showTab('myTabsSubmenuInfo', 1)"
+                        class="w-full text-start tab-button active px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Nosotros</span><i
+                          class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                      <button onclick="showTab('myTabsSubmenuInfo', 2)"
+                        class="w-full text-start tab-button px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Campus</span><i
+                          class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                      <button onclick="showTab('myTabsSubmenuInfo', 3)"
+                        class="w-full text-start tab-button px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Vida
+                          Universitaria</span><i
+                          class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                    </div>
+                    <div class="px-4">
+                      <h3 class="text-[#231F20] text-[40px] leading-none text-adelle mb-2">Quiénes somos</h3>
+                      <p class="text-[#5F6480] text-lg text-stag">La universidad que potencia el ingenio, la innovación
+                        y el emprendimiento</p>
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <div class="px-6 py-10">
+                      <div data-tab="1" class="tab-content active">
+                        <div class="flex flex-col gap-6">
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Misión y visión</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Metodología</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Transformación Educativa</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Beneficios</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Autoridades</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Respaldo</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Contacto</a>
+                        </div>
+                      </div>
+                      <div data-tab="2" class="tab-content">
+                        <div class="flex flex-col gap-6">
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Infraestructura</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Visita presencial</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Recorrido virtual</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Eventos</a>
+                        </div>
+                      </div>
+                      <div data-tab="3" class="tab-content">
+                        <div class="flex flex-col gap-6">
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Bienestar Estudiantil</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Semana Universitaria</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Inclusión</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Deportes</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Blog y noticias</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="menu-item menu-item-active">
+              <button
+                class="menu-item-option block py-[34px] text-[#231F20] text-adelle relative lg:hover:before-[''] lg:hover:before:h-[3px] lg:hover:before:absolute lg:hover:before:w-full lg:hover:before:bottom-0 lg:hover:before:left-0 lg:hover:before:right-0 lg:hover:before:bg-gradient-to-r lg:hover:before:from-[#00BFFF] lg:hover:before:to-[#0FF0FF]">Estudia
+                con nosotros</button>
+              <div
+                class="submenu bg-white absolute left-0 right-0 min-h-[532px] tab-submenu after:left-0 after:right-0 after:top-0 after:bottom-0 after:h-screen after:bg-[#00000080] after:pointer-events-none after:z-[-1] after:absolute after:content-['']"
+                id="myTabsSubmenuAbout">
+                <div class="flex h-full min-h-[532px]">
+                  <div
+                    class="min-w-[329px] max-w-[329px] border-r border-[#CADAEF] px-6 py-10 flex flex-col justify-between">
+                    <div class="flex items-start flex-col gap-6">
+                      <button onclick="showTab('myTabsSubmenuAbout', 1)"
+                        class="w-full text-start tab-button active px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Pregrado</span><i
+                          class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                      <button onclick="showTab('myTabsSubmenuAbout', 2)"
+                        class="w-full text-start tab-button px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Posgrado</span><i
+                          class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                    </div>
+                    <div class="px-4">
+                      <h3 class="text-[#231F20] text-[40px] leading-none text-adelle mb-2">Quiénes somos</h3>
+                      <p class="text-[#5F6480] text-lg text-stag">La universidad que potencia el ingenio, la innovación
+                        y el emprendimiento</p>
+                    </div>
+                  </div>
+                  <div class="w-full">
+                    <div class="">
+                      <div data-tab="1" class="tab-content active tab-submenu" id="myTabsAdmision">
+                        <div class="flex">
+                          <div class="px-6 py-10 min-w-[328px] max-w-[328px] flex flex-col gap-6">
+                            <button onclick="showTab('myTabsAdmision', 1)"
+                              class="w-full text-start tab-button active px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Admisión</span><i
+                                class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                            <button onclick="showTab('myTabsAdmision', 2)"
+                              class="w-full text-start tab-button px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Carreras</span><i
+                                class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"><span></span></i></button>
+                            <button onclick="showTab('myTabsAdmision', 3)"
+                              class="w-full text-start tab-button px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Convenios
+                                internacionales</span><i
+                                class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                            <button onclick="showTab('myTabsAdmision', 4)"
+                              class="w-full text-start tab-button px-4 py-2 text-[#231F20] text-adelle text-lg flex items-center justify-between"><span>Bolsa
+                                de trabajo</span><i
+                                class="tab-button-icon ri-arrow-right-s-line text-[#00BFFF] text-2xl"></i></button>
+                          </div>
+                          <div data-tab="1" class="tab-content active w-full">
+                            <div class="min-h-[532px] p-10 bg-[#F3F8FF]">
+                              <div class="flex items-start">
+                                <div class="flex flex-col gap-5">
+                                  <a class="flex items-center gap-4" href="./admision.html">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Calendario académico</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="./admision.html">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Modalidades de admisión</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="./admision.html">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Tarifario de pensiones</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="./admision.html">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Apoyo financiero</span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div data-tab="2" class="tab-content w-full">
+                            <div class="min-h-[532px] p-10 bg-[#F3F8FF]">
+                              <div class="flex items-start gap-5">
+                                <div class="flex flex-col gap-5 w-full">
+                                  <p
+                                    class="border-b-2 border-[#00BFFF] h-[50px] leading-tight text-adelle text-[15px] text-[#231F20] font-semibold mb-2">
+                                    Facultad de Ingeniería</p>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Bioingeniería</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería Ambiental</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería Civil</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería de la Energía</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería Electrónica</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería Industrial</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería Mecánica</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería Mecatrónica</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ingeniería Química</span>
+                                  </a>
+                                </div>
+                                <div class="flex flex-col gap-5 w-full">
+                                  <p
+                                    class="border-b-2 border-[#00BFFF] h-[50px] leading-tight text-adelle text-[15px] text-[#231F20] font-semibold mb-2">
+                                    Facultad de Computación</p>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ciencia de la Computación</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Ciencia de Datos</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Sistemas de Información</span>
+                                  </a>
+                                </div>
+                                <div class="flex flex-col gap-5 w-full">
+                                  <p
+                                    class="border-b-2 border-[#00BFFF] h-[50px] leading-tight text-adelle text-[15px] text-[#231F20] font-semibold mb-2">
+                                    Facultad de Administración y Negocios</p>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Administración y Negocios
+                                      Digitales</span>
+                                  </a>
+                                  <a class="flex items-center gap-4" href="">
+                                    <i class="ri-arrow-right-line text-[#00BFFF] text-[15px]"></i>
+                                    <span class="text-[#231F20] text-[13px] text-stag">Administración y Negocios
+                                      Internacionales <span
+                                        class="text-[10px] bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] font-semibold px-[6px] py-[2px] rounded-full">Nueva</span>
+                                    </span>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-tab="2" class="tab-content">
+                        <div class="flex flex-col gap-6">
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Infraestructura</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Visita presencial</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Recorrido virtual</a>
+                          <a class="px-4 py-2 text-[#231F20] text-adelle text-lg" href="">Eventos</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a class="menu-item-option block py-[34px] text-[#231F20] text-adelle relative lg:hover:before-[''] lg:hover:before:h-[3px] lg:hover:before:absolute lg:hover:before:w-full lg:hover:before:bottom-0 lg:hover:before:left-0 lg:hover:before:right-0 lg:hover:before:bg-gradient-to-r lg:hover:before:from-[#00BFFF] lg:hover:before:to-[#0FF0FF]"
+                href="">Investigaciones en UTEC</a>
+            </li>
+            <li>
+              <a class="menu-item-option block py-[34px] text-[#231F20] text-adelle relative lg:hover:before-[''] lg:hover:before:h-[3px] lg:hover:before:absolute lg:hover:before:w-full lg:hover:before:bottom-0 lg:hover:before:left-0 lg:hover:before:right-0 lg:hover:before:bg-gradient-to-r lg:hover:before:from-[#00BFFF] lg:hover:before:to-[#0FF0FF]"
+                href="">Emprende en Ventures</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="flex items-center gap-6">
+        <div class="hidden lg:block">
+          <i class="ri-search-line text-2xl text-[#231F20] cursor-pointer"></i>
+        </div>
+        <button data-micromodal-trigger="modal-apply"
+          class="w-full md:w-fit bg-[#231F20] gap-6 text-white text-adelle font-bold h-[44px] lg:h-[54px] flex items-center justify-center px-6 rounded-xl  hover:px-[48px] duration-700 transition ease-in-out hover:transition-all hover:duration-700 hover:bg-[#FBBC05] hover:text-[#231F20]">
+          <span>Postular</span>
+          <i class="ri-arrow-right-up-line text-xl"></i>
+        </button>
+        <a class="lg:hidden" href="#" data-micromodal-trigger="modal-menu">
+          <i class="ri-menu-line text-[32px]"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="relative lg:h-[952px] mt-[96px] lg:mt-[138px] flex lg:items-center">
+    <img class="w-full h-[612px] lg:h-full object-cover absolute" src="./assets/img/banner-pregrado.png" alt="">
+    <div class="w-full h-[612px] lg:h-full object-cover absolute bg-banner"></div>
+
+    <div class="container relative overflow-visible">
+      <div class="grid grid-cols-10 md:grid-cols-12 lg:gap-[68px] items-start">
+        <div class="col-span-10 md:col-span-12 lg:col-span-6">
+          <div class="h-[612px] lg:h-full flex-col flex justify-start lg:justify-between">
+            <div class="pb-[32px] lg:pb-14 pt-[48px] lg:pt-[88px]">
+              <h1
+                class="text-[32px] lg:text-[56px] text-white text-adelle leading-[40px] lg:leading-[64px] mb-2 lg:font-semibold">
+                Te damos la <br> bienvenida a <span class="font-bold">Pregrado</span></h1>
+              <p class="text-sm lg:text-base text-stag text-white lg:max-w-[504px]">El mundo avanza y las
+                necesidades de
+                la industria cambian. En UTEC apostamos por una formación integral de líderes globales que puedan
+                atender las nuevas demandas</p>
+              <button class="px-[28px] my-8 btn btn-grow btn-primary w-auto">
+                <span>Explorar Facultades</span>
+                <i class="ri-arrow-right-up-line text-[20px]"></i>
+              </button>
+              <a class="flex items-center text-white text-xl font-semibold gap-2 group" href="">
+                <span class="text-adelle group-hover:underline">Ver proceso de admisión</span>
+                <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                  <i class="ri-arrow-right-up-line"></i>
+                </span>
+              </a>
+            </div>
+            <div class="border-t border-white pb-[56px] pt-5">
+              <div class="flex items-center gap-3">
+                <a class="text-white text-stag text-sm" href="./home.html">Inicio</a>
+                <i class="ri-arrow-right-s-line text-2xl text-[#00BFFF]"></i>
+                <p class="text-white text-stag font-semibold text-sm">Pregrado</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-10 md:col-span-12 lg:col-span-6 relative h-full flex justify-end">
+          <div
+            class="bg-[#F3F8FF] border-t-[6px] border-[#00BFFF] lg:border-none md:px-10 px-6 py-[44px] lg:py-14 rounded-3xl w-full xl:w-[504px] z-[2] bottom-[-395px] mt-[-75px] lg:mt-0 mb-2 lg:mb-0">
+            <form class="flex flex-col gap-10">
+              <div class="text-center">
+                <h3 class="text-[#231F20] text-adelle text-[32px] font-semibold pb-4 leading-[40px]">Postula en UTEC
+                </h3>
+                <p class="text-[#231F20] text-lg text-stag">Regístrate para recibir información personalizada</p>
+              </div>
+              <div class="grid grid-cols-6 gap-y-5 gap-x-2 items-center">
+                <div class="col-span-6 lg:col-span-3">
+                  <input type="text" class="input-primary" placeholder="Nombre(s)">
+                </div>
+                <div class="col-span-6 lg:col-span-3">
+                  <input type="text" class="input-primary" placeholder="Apellidos">
+                </div>
+                <div class="col-span-3 lg:col-span-3">
+                  <input type="text" class="input-primary" placeholder="Celular">
+                </div>
+                <div class="col-span-3 lg:col-span-3">
+                  <input type="text" class="input-primary" placeholder="Correo electrónico">
+                </div>
+                <div class="col-span-6 lg:col-span-3">
+                  <select class="select-primary" name="" id="">
+                    <option value="">Tipo de documento</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                  </select>
+                </div>
+                <div class="col-span-6 lg:col-span-3">
+                  <input type="text" class="input-primary" placeholder="Nro. de documento">
+                </div>
+                <div class="col-span-6 lg:col-span-3">
+                  <select class="select-primary" name="" id="">
+                    <option value="">Distrito</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                  </select>
+                </div>
+                <div class="col-span-6 lg:col-span-3">
+                  <select class="select-primary" name="" id="">
+                    <option value="">Grado</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                  </select>
+                </div>
+                <div class="col-span-6 lg:col-span-6">
+                  <select class="select-primary" name="" id="">
+                    <option value="">Carrera de interés</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <div class="box-check mb-2">
+                  <input class="box-check-input" id="politica" name="politica" type="checkbox">
+                  <label class="box-check-label text-sm" for="politica">
+                    <span class="text-[#5F6480]">He leído y acepto la<a href="#"
+                        class="mx-2 underline font-semibold">Política de Privacidad</a></span>
+                  </label>
+                </div>
+                <div class="box-check">
+                  <input class="box-check-input" id="event" name="event" type="checkbox">
+                  <label class="box-check-label text-sm" for="event">
+                    <span class="text-[#5F6480]">Acepto recibir información útil sobre <a href="#"
+                        class="mx-[2px] underline font-semibold">eventos</a> <span class="font-semibold">e información
+                        comercial UTEC. Puedes </span>darte de baja en cualquier momento.</span>
+                  </label>
+                </div>
+              </div>
+              <button class="btn btn-secundary w-full">
+                <span>Enviar</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="hidden lg:block bg-gradient-to-r from-[rgba(0,191,255,1)] to-[rgba(0,255,255,1)] h-[57px] pl-[32px] overflow-hidden">
+    <ul class="bar--animation flex items-center gap-x-6 h-full list-none">
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Ingeniería
+        civil</li>
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Ingeniería
+        mecatrónica</li>
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Ingeniería
+        industrial</li>
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Ingeniería
+        química</li>
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Bioingeniería
+      </li>
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Ingeniería
+        mecánica</li>
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Ingeniería
+        ambiental</li>
+      <li class="text-stag text-[#231F20] text-[14px] leading-[24px] uppercase tracking-[0.6px] shrink-0">Ingeniería de
+        la energía</li>
+    </ul>
+  </section>
+
+  <section class="py-14 lg:pt-[80px] lg:pb-[90px]">
+    <div class="container">
+      <h2
+        class="text-adelle text-[#231F20] text-[32px] leading-[40px] lg:text-[58px] lg:leading-[56px] text-center mb-3 lg:mb-8">
+        Conoce nuestras
+        <br><span class="font-bold">Facultades y Carreras</span>
+      </h2>
+      <div class="tab-secondary tabs--transition" id="myTabsLife" data-aos="fade-up" data-aos-offset="500"
+        data-aos-duration="500" data-aos-once="true">
+        <div class="flex items-center gap-4 lg:gap-10 border-b border-[#CADAEF] w-full ">
+          <button class="tab-button active text-[#231F20] flex flex-col" onclick="showTab('myTabsLife', 1)">
+            <span
+              class="text-xs lg:text-base text-adelle h-[64px] flex items-center justify-center font-semibold">Facultad
+              de Ingeniería</span>
+            <span class="tab-button--line h-[7px] w-full inline-block"></span>
+          </button>
+          <button class="tab-button text-[#231F20] flex flex-col" onclick="showTab('myTabsLife', 2)">
+            <span
+              class="text-xs lg:text-base text-adelle h-[64px] flex items-center justify-center font-semibold">Facultad
+              de Computación</span>
+            <span class="tab-button--line h-[7px] w-full inline-block"></span>
+          </button>
+          <button class="tab-button text-[#231F20] flex flex-col" onclick="showTab('myTabsLife', 3)">
+            <span
+              class="text-xs lg:text-base text-adelle h-[64px] flex items-center justify-center font-semibold">Facultad
+              de Administración y Negocios</span>
+            <span class="tab-button--line h-[7px] w-full inline-block"></span>
+          </button>
+        </div>
+        <div data-tab="1" class="tab-content active">
+          <div class="pt-8 flex flex-col gap-6 lg:gap-14">
+            <div class="h-[250px] lg:h-[260px]">
+              <img src="assets/img/tab-ingenieria.png" alt="" class="w-full h-full object-cover rounded-2xl">
+            </div>
+            <div class="grid grid-cols-10 md:grid-cols-12 gap-6 lg:gap-9">
+              <div class="col-span-10 md:col-span-12 lg:col-span-5 flex flex-col gap-6">
+                <h3
+                  class="text-adelle text-[#231F20] text-[32px] leading-[30px] lg:text-[40px] lg:leading-[48px] font-semibold">
+                  Facultad de
+                  Ingeniería</h3>
+                <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Aprende nuevas
+                  tecnologías con nuestros docentes y laboratorios de última generación para crear un
+                  impacto positivo en el mundo</p>
+                <button class="hidden lg:flex btn btn-grow btn-primary">
+                  <span>Conocer Facultad</span>
+                  <i class="hidden lg:block ri-arrow-right-up-line text-[20px]"></i>
+                </button>
+              </div>
+              <div class="col-span-10 md:col-span-12 lg:col-span-5">
+                <h5 class="text-adelle text-[#231F20] text-[18px] leading-[24px] font-bold mb-3 lg:mb-0">
+                  Carreras</h5>
+                <div class="flex flex-col lg:flex-row lg:gap-4 mb-6 lg:mb-0">
+                  <div class="lg:pt-[26px]">
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Bioingeniería
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Ambiental
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería Civil
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería de la
+                        Energía</p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería de la
+                        Energía</p>
+                    </div>
+                  </div>
+                  <div class="lg:pt-[26px]">
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Electrónica
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Mecánica
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Química
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="w-full text-lg lg:text-base lg:hidden flex items-center justify-center gap-6 transition duration-150 text-[#231F20] px-[28px] h-[56px] text-adelle bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] rounded-xl font-bold hover:from-[#00BFFF] hover:to-[#00BFFF]  hover:px-[48px] duration-700 transition ease-in-out hover:transition-all hover:duration-700">
+                  <span>Conocer Facultad</span>
+                  <i class="block ri-arrow-right-up-line text-[20px]"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-tab="2" class="tab-content">
+          <div class="pt-8 flex flex-col gap-6 lg:gap-14">
+            <div class="h-[250px] lg:h-[260px]">
+              <img src="assets/img/tab-computacion.png" alt="" class="w-full h-full object-cover rounded-2xl">
+            </div>
+            <div class="grid grid-cols-10 md:grid-cols-12 gap-6 lg:gap-9">
+              <div class="col-span-10 md:col-span-12 lg:col-span-5 flex flex-col gap-6">
+                <h3
+                  class="text-adelle text-[#231F20] text-[32px] leading-[30px] lg:text-[40px] lg:leading-[48px] font-semibold">
+                  Facultad de
+                  Computación</h3>
+                <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Aprende nuevas
+                  tecnologías con nuestros docentes y laboratorios de última generación para crear un
+                  impacto positivo en el mundo</p>
+                <button class="hidden lg:flex btn btn-grow btn-primary">
+                  <span>Conocer Facultad</span>
+                  <i class="hidden lg:block ri-arrow-right-up-line text-[20px]"></i>
+                </button>
+              </div>
+              <div class="col-span-10 md:col-span-12 lg:col-span-5">
+                <h5 class="text-adelle text-[#231F20] text-[18px] leading-[24px] font-bold mb-3 lg:mb-0">
+                  Carreras</h5>
+                <div class="flex flex-col lg:flex-row lg:gap-4 mb-6 lg:mb-0">
+                  <div class="lg:pt-[26px]">
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Bioingeniería
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Ambiental
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería Civil
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería de la
+                        Energía</p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería de la
+                        Energía</p>
+                    </div>
+                  </div>
+                  <div class="lg:pt-[26px]">
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Electrónica
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Mecánica
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Química
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="w-full text-lg lg:text-base lg:hidden flex items-center justify-center gap-6 transition duration-150 text-[#231F20] px-[28px] h-[56px] text-adelle bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] rounded-xl font-bold hover:from-[#00BFFF] hover:to-[#00BFFF]  hover:px-[48px] duration-700 transition ease-in-out hover:transition-all hover:duration-700">
+                  <span>Conocer Facultad</span>
+                  <i class="block ri-arrow-right-up-line text-[20px]"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-tab="3" class="tab-content">
+          <div class="pt-8 flex flex-col gap-6 lg:gap-14">
+            <div class="h-[250px] lg:h-[260px]">
+              <img src="assets/img/tab-administracion.png" alt="" class="w-full h-full object-cover rounded-2xl">
+            </div>
+            <div class="grid grid-cols-10 md:grid-cols-12 gap-6 lg:gap-9">
+              <div class="col-span-10 md:col-span-12 lg:col-span-5 flex flex-col gap-6">
+                <h3
+                  class="text-adelle text-[#231F20] text-[32px] leading-[30px] lg:text-[40px] lg:leading-[48px] font-semibold">
+                  Facultad de
+                  Administración y Negocios</h3>
+                <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Aprende nuevas
+                  tecnologías con nuestros docentes y laboratorios de última generación para crear un
+                  impacto positivo en el mundo</p>
+                <button class="hidden lg:flex btn btn-grow btn-primary">
+                  <span>Conocer Facultad</span>
+                  <i class="hidden lg:block ri-arrow-right-up-line text-[20px]"></i>
+                </button>
+              </div>
+              <div class="col-span-10 md:col-span-12 lg:col-span-5">
+                <h5 class="text-adelle text-[#231F20] text-[18px] leading-[24px] font-bold mb-3 lg:mb-0">
+                  Carreras</h5>
+                <div class="flex flex-col lg:flex-row lg:gap-4 mb-6 lg:mb-0">
+                  <div class="lg:pt-[26px]">
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Bioingeniería
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Ambiental
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería Civil
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería de la
+                        Energía</p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería de la
+                        Energía</p>
+                    </div>
+                  </div>
+                  <div class="lg:pt-[26px]">
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Electrónica
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Mecánica
+                      </p>
+                    </div>
+                    <div class="flex items-start gap-4 mb-2">
+                      <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                      <p class="text-[#5F6480] text-stag text-[16px] leading-[24px] tracking-[0.2px]">Ingeniería
+                        Química
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="w-full text-lg lg:text-base lg:hidden flex items-center justify-center gap-6 transition duration-150 text-[#231F20] px-[28px] h-[56px] text-adelle bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] rounded-xl font-bold hover:from-[#00BFFF] hover:to-[#00BFFF]  hover:px-[48px] duration-700 transition ease-in-out hover:transition-all hover:duration-700">
+                  <span>Conocer Facultad</span>
+                  <i class="block ri-arrow-right-up-line text-[20px]"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-14 lg:py-[80px] bg-[#F3F8FF]">
+    <div class="container overflow-visible">
+      <div class="grid grid-cols-10 md:grid-cols-12 lg:gap-[68px] items-center">
+        <div class="col-span-10 md:col-span-12 lg:col-span-6">
+          <div class="pb-[56px]">
+            <div class="flex items-center gap-4 mb-3 lg:mb-0">
+              <h2 class="text-[32px] lg:text-[48px] text-adelle text-adelle font-semibold">¿Cómo <span
+                  class="font-bold">aprenderás
+                  en</span></h2>
+            </div>
+            <div class="flex items-center gap-4 mb-2">
+              <h2 class="text-[32px] lg:text-[48px] text-adelle text-adelle font-bold flex gap-4"> UTEC? <img
+                  class="w-[110px] lg:w-full xl:w-[150px] lg:w-fit" src="assets/img/arrow.svg" alt="arrow"></h2>
+            </div>
+            <p class="text-[#5F6480] text-stag">Combinamos enseñanzas presenciales y virtuales, aprovechando las
+              diferentes tecnologías emergentes para que adquieras los mejores conocimientos.</p>
+            <a class="inline-flex items-center justify-center text-[#231F20] text-xl font-semibold gap-2 mt-6 group"
+              href="">
+              <span class="text-adelle group-hover:underline">Ver Modelo Educativo</span>
+              <span class="w-8 h-8 bg-[#231F20] text-white rounded-full flex items-center justify-center">
+                <i class="ri-arrow-right-up-line"></i>
+              </span>
+            </a>
+          </div>
+          <div class="tab-secondary" id="myTabsLearning">
+            <div class="flex items-center border-b border-[#CADAEF] w-full ">
+              <button class="tab-button active text-[#231F20] flex flex-col w-1/2"
+                onclick="showTab('myTabsLearning', 1)">
+                <span
+                  class="text-xs lg:text-base text-adelle h-[64px] flex items-center justify-center w-full font-semibold">Modalidad
+                  <br class="block lg:hidden"> Presencial</span>
+                <span class="tab-button--line h-[7px] w-full inline-block"></span>
+              </button>
+              <button class="tab-button text-[#231F20] flex flex-col w-1/2" onclick="showTab('myTabsLearning', 2)">
+                <span
+                  class="text-xs lg:text-base text-adelle h-[64px] flex items-center justify-center w-full font-semibold">Modalidad
+                  Semipresencial <br class="block lg:hidden"> (Blended)</span>
+                <span class="tab-button--line h-[7px] w-full inline-block"></span>
+              </button>
+            </div>
+            <div>
+              <div data-tab="1" class="tab-content active">
+                <p class="text-[#5F6480] text-stag py-8">El espacio idel para desarrollar tu talento. Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit.</p>
+                <div class="flex flex-col gap-4">
+                  <button
+                    class="w-full flex items-center justify-between px-6 bg-white border border-[#CADAEF] gap-3 rounded-xl min-h-[32px] py-5">
+                    <span class="leading-[24px] text-xl font-semibold text-adelle text-start">Interacción Directa</span>
+                    <i class="ri-arrow-right-s-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                  <button data-micromodal-trigger="modal-infraestructura-campus"
+                    class="w-full flex items-center justify-between px-6 bg-white border border-[#CADAEF] gap-3 rounded-xl min-h-[32px] py-5">
+                    <span class="leading-[24px] text-xl font-semibold text-adelle text-start">Infraestructura de
+                      Campus</span>
+                    <i class="ri-arrow-right-s-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                  <button data-micromodal-trigger="modal-metodologia"
+                    class="w-full flex items-center justify-between px-6 bg-white border border-[#CADAEF] gap-3 rounded-xl min-h-[32px] py-5">
+                    <span class="leading-[24px] text-xl font-semibold text-adelle text-start">Metodología de
+                      enseñanza</span>
+                    <i class="ri-arrow-right-s-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                </div>
+              </div>
+              <div data-tab="2" class="tab-content">
+                <p class="text-[#5F6480] text-stag py-8">El espacio idel para desarrollar tu talento. Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit.</p>
+                <div class="flex flex-col gap-4">
+                  <button data-micromodal-trigger="modal-flexibilidad"
+                    class="w-full flex items-center justify-between px-6 bg-white border border-[#CADAEF] gap-3 rounded-xl min-h-[32px] py-5">
+                    <span class="leading-[24px] text-xl font-semibold text-adelle text-start">Flexibilidad</span>
+                    <i class="ri-arrow-right-s-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                  <button
+                    class="w-full flex items-center justify-between px-6 bg-white border border-[#CADAEF] gap-3 rounded-xl min-h-[32px] py-5">
+                    <span class="leading-[24px] text-xl font-semibold text-adelle text-start">Ecosistema virtual</span>
+                    <i class="ri-arrow-right-s-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                  <button data-micromodal-trigger="modal-metodologia"
+                    class="w-full flex items-center justify-between px-6 bg-white border border-[#CADAEF] gap-3 rounded-xl min-h-[32px] py-5">
+                    <span class="leading-[24px] text-xl font-semibold text-adelle text-start">Metodología de
+                      enseñanza</span>
+                    <i class="ri-arrow-right-s-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-10 md:col-span-12 lg:col-span-6">
+          <div class="flex items-center flex-col lg:flex-row gap-4 pt-[64px] lg:pt-0" data-aos="fade-down"
+            data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
+            <div class="flex lg:flex-col gap-4 w-full">
+              <div class="w-full h-[152px] lg:h-[264px] overflow-hidden rounded-2xl">
+                <img class="object-cover h-full w-full transition duration-150 ease-out hover:scale-125"
+                  src="./assets/img/aprenderas-1.png" alt="">
+              </div>
+              <div class="w-full h-[152px] lg:h-[264px] overflow-hidden rounded-2xl">
+                <img class="object-cover h-full w-full transition duration-150 ease-out hover:scale-125"
+                  src="./assets/img/aprenderas-2.png" alt="">
+              </div>
+            </div>
+            <div class="w-full h-[152px] lg:h-[452px] overflow-hidden rounded-2xl">
+              <img class="object-cover w-full h-full transition duration-150 ease-out hover:scale-125"
+                src="./assets/img/aprenderas-3.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="flex">
+    <div
+      class="w-full lg:w-8/12 xl:w-7/12 lg:pl-[calc((100vw-958px)/2)] xl:pl-[calc((100vw-1180px)/2)] 2xl:pl-[calc((100vw-1405px)/2)]">
+      <div class="pt-[64px] lg:pt-[96px] lg:pb-[82px] lg:pl-8 lg:pr-14 flex flex-col">
+        <div class="container lg:p-0">
+          <h2 class="text-[32px] lg:text-[56px] text-[#231F20] leading-none text-adelle mb-4 lg:mb-14">Te
+            acompañamos
+            en tu
+            <br>
+            <span class="font-bold text-adelle">camino profesional</span>
+          </h2>
+        </div>
+        <div
+          class="bg-[#BFF0FF] flex justify-between items-center lg:rounded-3xl relative lg:mb-4 h-[206px] order-1 lg:order-none">
+          <div class="flex justify-center w-[50%] h-full relative">
+            <img src="./assets/img/ilustration5.svg" class="absolute left-0 bottom-0 top-0 h-full" alt="">
+            <img class="absolute mx-auto lg:mx-0 bottom-0 h-[226px]" src="./assets/img/ilustracion-camino-prof.png"
+              alt="">
+          </div>
+          <div class="py-8 pr-5 lg:pr-14 w-[50%] relative">
+            <h4 class="text-[#00BFFF] text-adelle text-[56px] leading-[64px] font-semibold"><span
+                class="counter">0</span>%</h4>
+            <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px] section-percentaje">De
+              nuestros estudiantes que
+              egresan consiguen un empleo dentro de los
+              primeros 2 años.
+            </p>
+          </div>
+        </div>
+        <div class="container lg:p-0">
+          <div class="flex flex-col gap-4 lg:gap-8 mb-[92px] lg:mb-0">
+            <p class="text-[#5F6480] text-stag text-sm lg:text-lg leading-[24px]"><span class="font-bold">Career
+                Services</span> es un programa donde
+              fomentamos el fortalecimiento de las competencias que hacen más empleables a nuestros estudiantes,
+              orientándolos en el diseño y logro de sus metas profesionales. </p>
+            <button class="btn btn-grow btn-secundary">
+              <span>Ver más</span>
+              <i class="ri-arrow-right-up-line text-xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lg:w-4/12 xl:w-5/12 xl:min-w-[578px] h-full lg:h-[830px] hidden lg:block">
+      <img class="w-full h-full object-cover" src="./assets/img/bg-camino-profesional.png" alt="">
+    </div>
+  </section>
+
+  <section class="bg-[#F3F8FF] pt-[72px] pb-[78px] lg:py-[72px] tab-primary relative" id="myTabsSupport">
+    <img class="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover hidden lg:block"
+      src="./assets/img/bg-apoyo.svg" alt="">
+    <img class="absolute top-0 left-0 right-0 bottom-0 w-full h-full object-cover lg:hidden"
+      src="./assets/img/bg-apoyo-mobile.svg" alt="">
+    <div class="container">
+      <div class="relative mb-8">
+        <h2 class="lg:text-center text-adelle text-[32px] lg:text-[56px] text-[#231F20] leading-none pb-4 lg:pb-8">
+          Estudia
+          en la mejor <br> <span class="font-bold text-adelle">infraestructura</span></h2>
+        <p class="lg:text-center lg:mx-auto max-w-[531px] text-sm lg:text-xl text-stag text-[#231F20] pb-8">Contamos con
+          espacios físicos y digitales para la formación de futuros profesionales. Nuestros laboratorios están equipados
+          con tecnología de última generación y herramientas digitales.</p>
+        <div class="block lg:text-center pb-8">
+          <a class="inline-flex items-center justify-center text-[#231F20] text-xl font-semibold gap-2 group" href="">
+            <span class="text-adelle group-hover:underline">Recorrido virtual</span>
+            <span class="w-8 h-8 bg-[#231F20] text-white rounded-full flex items-center justify-center">
+              <i class="ri-arrow-right-up-line"></i>
+            </span>
+          </a>
+        </div>
+        <div class="flex items-center justify-center">
+          <div class="flex items-center bg-[#F3F8FF] w-fit rounded-full">
+            <button class="tab-button px-[12px] h-[56px] flex items-center justify-center md:p-5 text-[#231F20] active"
+              onclick="showTab('myTabsSupport', 1)">
+              <span class="text-adelle font-semibold text-xs lg:text-base">Laboratorios</span>
+            </button>
+            <button class="tab-button px-[12px] flex items-center justify-center h-[56px] md:p-5 text-[#231F20]"
+              onclick="showTab('myTabsSupport', 2)">
+              <span class="text-adelle font-semibold text-xs lg:text-base">Espacios comunes</span>
+            </button>
+            <button class="tab-button px-[12px] flex items-center justify-center h-[56px] md:p-5 text-[#231F20]"
+              onclick="showTab('myTabsSupport', 3)">
+              <span class="text-adelle font-semibold text-xs lg:text-base">Laboratorios virtuales</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lg:container">
+      <div class="pb-14 lg:pb-0">
+        <div data-tab="1" class="tab-content active">
+          <div class="relative swiper-arrow-flaoting">
+            <div
+              class="swiper swiper-opacity-lg swiper-infra swiper-infra-tab mySwiperInfraestructura px-4 md:px-8 lg:px-0">
+              <div class="swiper-wrapper pb-[30px] lg:pb-0">
+                <div class="swiper-slide">
+                  <div class="w-full h-[276px] lg:h-[480px] rounded-3xl relative ">
+                    <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-laboratorio-quimica.png"
+                      alt="laboratorioQuimica">
+                    <div
+                      class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                      <div class="support-item--text">
+                        <div class="flex flex-col">
+                          <h3 class="flex items-start text-adelle text-white text-2xl lg:mb-4">
+                            Laboratorio de Química
+                          </h3>
+                        </div>
+                        <div class="support-item--paragraph">
+                          <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                            data-micromodal-trigger="modal-laboratorio">
+                            <span class="text-adelle group-hover:underline viewSlide" data-slide=1>Ver más</span>
+                            <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                              <i class="ri-arrow-right-up-line"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="w-full h-[276px] lg:h-[480px] rounded-3xl relative ">
+                    <img class="w-full h-full object-cover rounded-3xl"
+                      src="./assets/img/bg-laboratorio-mecatronica.png" alt="laboratorioMecatronica">
+                    <div
+                      class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                      <div class="support-item--text">
+                        <div class="flex flex-col">
+                          <h3
+                            class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                            Laboratorio de Mecatrónica
+                          </h3>
+                        </div>
+                        <div class="support-item--paragraph">
+                          <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                            data-micromodal-trigger="modal-laboratorio">
+                            <span class="text-adelle group-hover:underline viewSlide" data-slide=2>Ver más</span>
+                            <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                              <i class="ri-arrow-right-up-line"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="w-full h-[276px] lg:h-[480px] rounded-3xl relative ">
+                    <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-laboratorio-energia.png"
+                      alt="laboratorioEnergia">
+                    <div
+                      class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                      <div class="support-item--text">
+                        <div class="flex flex-col">
+                          <h3
+                            class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                            Laboratorio de Energía
+                          </h3>
+                        </div>
+                        <div class="support-item--paragraph">
+                          <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                            data-micromodal-trigger="modal-laboratorio">
+                            <span class="text-adelle group-hover:underline viewSlide" data-slide=3>Ver más</span>
+                            <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                              <i class="ri-arrow-right-up-line"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="w-full h-[276px] lg:h-[480px] rounded-3xl relative ">
+                    <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-talento-destacado.png"
+                      alt="laboratorioAmbiental">
+                    <div
+                      class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                      <div class="support-item--text">
+                        <div class="flex flex-col">
+                          <h3
+                            class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                            Laboratorio Ambiental
+                          </h3>
+                        </div>
+                        <div class="support-item--paragraph">
+                          <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                            data-micromodal-trigger="modal-laboratorio">
+                            <span class="text-adelle group-hover:underline viewSlide" data-slide=4>Ver más</span>
+                            <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                              <i class="ri-arrow-right-up-line"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="w-full h-[276px] lg:h-[480px] rounded-3xl relative ">
+                    <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-laboratorio-energia.png"
+                      alt="laboratorioBioingenieria">
+                    <div
+                      class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                      <div class="support-item--text">
+                        <div class="flex flex-col">
+                          <h3
+                            class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                            Laboratorio de Bioingeniería
+                          </h3>
+                        </div>
+                        <div class="support-item--paragraph">
+                          <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                            data-micromodal-trigger="modal-laboratorio">
+                            <span class="text-adelle group-hover:underline viewSlide" data-slide=5>Ver más</span>
+                            <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                              <i class="ri-arrow-right-up-line"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex lg:hidden justify-between items-center pagination--circle">
+                <div class="swiper-pagination !w-auto !font-bold relative"></div>
+                <div class="lg:hidden flex flex-row-reverse items-center w-[120px] gap-9">
+                  <div class="swiper-button-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative">
+                  </div>
+                  <div class="swiper-button-prev  w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next hidden">
+              </div>
+              <div class="swiper-button-prev hidden">
+              </div>
+            </div>
+            <div class="swiper-button-next hidden lg:flex rounded-full bg-[#00BFFF] text-[#231F20]">
+            </div>
+            <div class="swiper-button-prev hidden lg:flex rounded-full bg-[#00BFFF] text-[#231F20]">
+            </div>
+          </div>
+        </div>
+        <div data-tab="2" class="tab-content">
+          <div class="max-w-[816px] mx-auto">
+            <div class="swiper swiper-opacity mySwiperInfraestructura-2   px-8 lg:px-0">
+              <div class="swiper-wrapper pb-[30px] lg:pb-0">
+                <div class="swiper-slide">
+                  <div class="w-full  h-[276px] lg:h-[480px] rounded-3xl relative">
+                    <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-credito.png" alt="">
+                    <div
+                      class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                      <div class="support-item--text">
+                        <div class="flex flex-col">
+                          <h3
+                            class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                            Crédito Educativo
+                          </h3>
+                        </div>
+                        <div class="support-item--paragraph">
+                          <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                            data-micromodal-trigger="modal-laboratorio">
+                            <span class="text-adelle group-hover:underline">Ver más</span>
+                            <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                              <i class="ri-arrow-right-up-line"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="w-full  h-[276px] lg:h-[480px] rounded-3xl relative">
+                    <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-credito.png" alt="">
+                    <div
+                      class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                      <div class="support-item--text">
+                        <div class="flex flex-col">
+                          <h3
+                            class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                            Crédito Educativo
+                          </h3>
+                        </div>
+                        <div class="support-item--paragraph">
+                          <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                            data-micromodal-trigger="modal-laboratorio">
+                            <span class="text-adelle group-hover:underline">Ver más</span>
+                            <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                              <i class="ri-arrow-right-up-line"></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex lg:hidden justify-between items-center pagination--circle">
+                <div class="swiper-pagination !w-auto !font-bold relative"></div>
+                <div class="flex flex-row-reverse items-center w-[120px] gap-9">
+                  <div class="swiper-button-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative">
+                  </div>
+                  <div class="swiper-button-prev  w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--<div
+            class="hidden lg:flex items-center flex-col md:flex-wrap lg:flex-nowrap md:flex-row lg:justify-center px-10 gap-5 lg:gap-[25px]">
+            <div class="w-full md:w-[48%] lg:w-[400px] h-[276px] lg:h-[480px] rounded-3xl relative">
+              <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-credito.png" alt="">
+              <div
+                class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                <div class="support-item--text">
+                  <div class="flex flex-col">
+                    <h3 class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                      Crédito Educativo
+                    </h3>
+                  </div>
+                  <div class="support-item--paragraph">
+                    <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                      data-micromodal-trigger="modal-laboratorio">
+                      <span class="text-adelle group-hover:underline">Ver más</span>
+                      <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                        <i class="ri-arrow-right-up-line"></i>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-[48%] lg:w-[400px] h-[276px] lg:h-[480px] rounded-3xl relative">
+              <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-financiamiento.png" alt="">
+              <div
+                class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                <div class="support-item--text">
+                  <div class="flex flex-col">
+                    <h3 class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                      Financiamiento educativo a través de Komodo
+                    </h3>
+                  </div>
+                  <div class="support-item--paragraph">
+                    <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                      data-micromodal-trigger="modal-laboratorio">
+                      <span class="text-adelle group-hover:underline">Ver más</span>
+                      <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                        <i class="ri-arrow-right-up-line"></i>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+        <div data-tab="3" class="tab-content">
+          <div
+            class="flex items-center flex-col md:flex-wrap lg:flex-nowrap md:flex-row lg:justify-center px-10 gap-5 lg:gap-4">
+            <div class="w-full lg:w-full lg:w-[816px] h-[276px] lg:h-[480px] rounded-3xl relative">
+              <img class="w-full h-full object-cover rounded-3xl" src="./assets/img/bg-recategorizacion.png" alt="">
+              <div
+                class="support-item rounded-3xl absolute top-0 left-0 right-0 bottom-0 py-4 px-[25px] lg:px-[26px] overflow-hidden lg:py-[32px] flex flex-col items-start justify-end cursor-pointer">
+                <div class="support-item--text">
+                  <div class="flex flex-col">
+                    <h3 class="flex items-start text-adelle text-white text-2xl lg:mb-4 min-h-[56px] lg:min-h-[64px]">
+                      Recategorización
+                    </h3>
+                  </div>
+                  <div class="support-item--paragraph">
+                    <button class="flex items-center text-white text-xl font-semibold gap-2 group"
+                      data-micromodal-trigger="modal-laboratorio">
+                      <span class="text-adelle group-hover:underline">Ver más</span>
+                      <span class="w-8 h-8 bg-white text-[#231F20] rounded-full flex items-center justify-center">
+                        <i class="ri-arrow-right-up-line"></i>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="relative">
+    <div
+      class="py-[72px] lg:py-[106px] bg-white relative lg:pl-[calc((100vw-1024px)/2+4rem)] xl:pl-[calc((100vw-1280px)/2+5rem)] 2xl:pl-[calc((100vw-1536px)/2+6rem)]">
+      <div class="grid grid-cols-10 md:grid-cols-12 lg:gap-[68px] items-center">
+        <div class="col-span-10 md:col-span-12 lg:col-span-5 xl:col-span-6">
+          <div class="pb-[56px] lg:pr-32 pl-[1rem] sm:pl-[2rem] lg:pl-0">
+            <div class="flex items-center gap-4 mb-3 lg:mb-0">
+              <h2 class="text-[32px] lg:text-[48px] text-adelle text-adelle font-semibold">Premios y</h2>
+              <img class="h-[48px] lg:h-[60px] w-[128px] lg:w-[236px] object-cover rounded-full"
+                src="./assets/img/img-vida-uni.png" alt="">
+            </div>
+            <div class="flex items-center gap-4 mb-2">
+              <h2 class="text-[32px] lg:text-[48px] text-adelle text-adelle font-bold">Reconocimeintos</h2>
+            </div>
+            <p class="text-[#5F6480] text-stag">Conoce a la comunidad estudiantil de UTEC que destacó en competencias
+              nacionales e internacionales convocados por distintas organizaciones e instituciones nacionales y
+              extranjeras.</p>
+          </div>
+        </div>
+        <div class="col-span-10 md:col-span-12 lg:col-span-7 xl:col-span-6">
+          <div class="swiper mySwiperPremios swiper-profile pl-[1rem] sm:pl-[2rem] lg:pl-0">
+            <div class="swiper-wrapper pb-10">
+              <div class="swiper-slide w-fit">
+                <div class="w-full h-full lg:max-w-[432px] lg:h-[575px] rounded-3xl relative">
+                  <img class="w-full h-[360px] mb-4 lg:mb-0 lg:h-full object-cover rounded-3xl"
+                    src="./assets/img/profile-1.png" alt="laboratorioQuimica">
+                  <div
+                    class="support-item support-item--color rounded-3xl lg:absolute lg:top-0 lg:left-0 lg:right-0 lg:bottom-0 lg:overflow-hidden flex flex-col items-start justify-end cursor-pointer">
+                    <div class="support-item--text lg:px-[26px] lg:pt-[24px]">
+                      <div class="flex flex-col mb-4">
+                        <h3 class="text-adelle lg:font-bold leading-none text-[#231F20] text-[32px] lg:text-lg">
+                          Nadia Guevara Sáenz 1
+                        </h3>
+                        <p class="text-[#231F20] font-semibold">1er Puesto Concurso Proyectos de Biogenética</p>
+                        <p class="text-[#231F20]">iGEM Design League</p>
+                      </div>
+                      <div class="support-item--paragraph">
+                        <button
+                          class="flex items-center text-[#231F20] text-xl font-semibold gap-2 group relative z-[99999] abrirModal"
+                          data-slide=1 data-micromodal-trigger="modal-profile">
+                          <span class="text-adelle group-hover:underline">Ver más</span>
+                          <span class="w-8 h-8 bg-[#231F20] text-white rounded-full flex items-center justify-center">
+                            <i class="ri-arrow-right-up-line"></i>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide w-fit">
+                <div class="w-full h-full lg:max-w-[432px] lg:h-[575px] rounded-3xl relative">
+                  <img class="w-full h-[360px] mb-4 lg:mb-0 lg:h-full object-cover rounded-3xl"
+                    src="./assets/img/profile-1.png" alt="laboratorioQuimica">
+                  <div
+                    class="support-item support-item--color rounded-3xl lg:absolute lg:top-0 lg:left-0 lg:right-0 lg:bottom-0 lg:overflow-hidden flex flex-col items-start justify-end cursor-pointer">
+                    <div class="support-item--text lg:px-[26px] lg:pt-[24px]">
+                      <div class="flex flex-col mb-4">
+                        <h3 class="text-adelle lg:font-bold leading-none text-[#231F20] text-[32px] lg:text-lg">
+                          Nadia Guevara Sáenz 2
+                        </h3>
+                        <p class="text-[#231F20] font-semibold">1er Puesto Concurso Proyectos de Biogenética</p>
+                        <p class="text-[#231F20]">iGEM Design League</p>
+                      </div>
+                      <div class="support-item--paragraph">
+                        <button
+                          class="flex items-center text-[#231F20] text-xl font-semibold gap-2 group relative z-[99999] abrirModal"
+                          data-slide=2 data-micromodal-trigger="modal-profile">
+                          <span class="text-adelle group-hover:underline">Ver más</span>
+                          <span class="w-8 h-8 bg-[#231F20] text-white rounded-full flex items-center justify-center">
+                            <i class="ri-arrow-right-up-line"></i>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide w-fit">
+                <div class="w-full h-full lg:max-w-[432px] lg:h-[575px] rounded-3xl relative">
+                  <img class="w-full h-[360px] mb-4 lg:mb-0 lg:h-full object-cover rounded-3xl"
+                    src="./assets/img/profile-1.png" alt="laboratorioQuimica">
+                  <div
+                    class="support-item support-item--color rounded-3xl lg:absolute lg:top-0 lg:left-0 lg:right-0 lg:bottom-0 lg:overflow-hidden flex flex-col items-start justify-end cursor-pointer">
+                    <div class="support-item--text lg:px-[26px] lg:pt-[24px]">
+                      <div class="flex flex-col mb-4">
+                        <h3 class="text-adelle lg:font-bold leading-none text-[#231F20] text-[32px] lg:text-lg">
+                          Nadia Guevara Sáenz 3
+                        </h3>
+                        <p class="text-[#231F20] font-semibold">1er Puesto Concurso Proyectos de Biogenética</p>
+                        <p class="text-[#231F20]">iGEM Design League</p>
+                      </div>
+                      <div class="support-item--paragraph">
+                        <button
+                          class="flex items-center text-[#231F20] text-xl font-semibold gap-2 group relative z-[99999] abrirModal"
+                          data-slide=3 data-micromodal-trigger="modal-profile">
+                          <span class="text-adelle group-hover:underline">Ver más</span>
+                          <span class="w-8 h-8 bg-[#231F20] text-white rounded-full flex items-center justify-center">
+                            <i class="ri-arrow-right-up-line"></i>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide w-fit">
+                <div class="w-full h-full lg:max-w-[432px] lg:h-[575px] rounded-3xl relative">
+                  <img class="w-full h-[360px] mb-4 lg:mb-0 lg:h-full object-cover rounded-3xl"
+                    src="./assets/img/profile-1.png" alt="laboratorioQuimica">
+                  <div
+                    class="support-item support-item--color rounded-3xl lg:absolute lg:top-0 lg:left-0 lg:right-0 lg:bottom-0 lg:overflow-hidden flex flex-col items-start justify-end cursor-pointer">
+                    <div class="support-item--text lg:px-[26px] lg:pt-[24px]">
+                      <div class="flex flex-col mb-4">
+                        <h3 class="text-adelle lg:font-bold leading-none text-[#231F20] text-[32px] lg:text-lg">
+                          Nadia Guevara Sáenz 4
+                        </h3>
+                        <p class="text-[#231F20] font-semibold">1er Puesto Concurso Proyectos de Biogenética</p>
+                        <p class="text-[#231F20]">iGEM Design League</p>
+                      </div>
+                      <div class="support-item--paragraph">
+                        <button
+                          class="flex items-center text-[#231F20] text-xl font-semibold gap-2 group relative z-[99999] abrirModal"
+                          data-slide=4 data-micromodal-trigger="modal-profile">
+                          <span class="text-adelle group-hover:underline">Ver más</span>
+                          <span class="w-8 h-8 bg-[#231F20] text-white rounded-full flex items-center justify-center">
+                            <i class="ri-arrow-right-up-line"></i>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide w-fit">
+                <div class="w-full h-full lg:max-w-[432px] lg:h-[575px] rounded-3xl relative">
+                  <img class="w-full h-[360px] mb-4 lg:mb-0 lg:h-full object-cover rounded-3xl"
+                    src="./assets/img/profile-1.png" alt="laboratorioQuimica">
+                  <div
+                    class="support-item support-item--color rounded-3xl lg:absolute lg:top-0 lg:left-0 lg:right-0 lg:bottom-0 lg:overflow-hidden flex flex-col items-start justify-end cursor-pointer">
+                    <div class="support-item--text lg:px-[26px] lg:pt-[24px]">
+                      <div class="flex flex-col mb-4">
+                        <h3 class="text-adelle lg:font-bold leading-none text-[#231F20] text-[32px] lg:text-lg">
+                          Nadia Guevara Sáenz 5
+                        </h3>
+                        <p class="text-[#231F20] font-semibold">1er Puesto Concurso Proyectos de Biogenética</p>
+                        <p class="text-[#231F20]">iGEM Design League</p>
+                      </div>
+                      <div class="support-item--paragraph">
+                        <button
+                          class="flex items-center text-[#231F20] text-xl font-semibold gap-2 group relative z-[99999] abrirModal"
+                          data-slide=5 data-micromodal-trigger="modal-profile">
+                          <span class="text-adelle group-hover:underline">Ver más</span>
+                          <span class="w-8 h-8 bg-[#231F20] text-white rounded-full flex items-center justify-center">
+                            <i class="ri-arrow-right-up-line"></i>
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex justify-between	 items-center pagination--circle pr-4 md:pr-8 lg:pr-[calc((100vw-1024px)/2+4rem)] xl:pr-[calc((100vw-1280px)/2+5rem)] 2xl:pr-[calc((100vw-1536px)/2+6rem)]">
+              <div class="counter-slider select-none font-bold relative mr-4"></div>
+              <div class="flex flex-row-reverse items-center w-[120px] gap-9 ">
+                <div
+                  class="swiper-button-next-prem swiper-button swiper-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative right-0">
+                </div>
+                <div
+                  class="swiper-button-prev-prem swiper-button swiper-prev   w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative left-0">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="absolute lg:relative left-0 bottom-0 w-full pointer-events-none">
+      <div class="lg:absolute left-0 bottom-0">
+        <img src="assets/img/ilustracion-premios.png" alt="premios" class="w-[212px] h-[125px] lg:w-full lg:h-full">
+      </div>
+      <div class="swiper-pagination-progressbar !top-auto !bottom-0 w-full bg-gradient-to-r bg-[#F3F8FF]">
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="pt-14 lg:pt-[86px] lg:pr-[calc((100vw-1024pr)/2)] xl:pr-[calc((100vw-1180px)/2)] 2xl:pr-[calc((100vw-1405px)/2)]">
+    <div class="lg:grid grid-cols-10 md:grid-cols-12 gap-4 flex flex-col-reverse">
+      <div class="col-span-10 md:col-span-12 lg:col-span-5">
+        <img src="assets/img/bg-circle.png" alt=""
+          class="object-cover object-top h-[382px] lg:h-fit w-[400px] lg:w-[90%] xlg:max-w-[815px]">
+      </div>
+      <div class="col-span-10 md:col-span-12 lg:col-span-7">
+        <div class="px-4 md:px-8 lg:px-0 flex flex-col gap-4 mb-4 xlg:mb-[159px]">
+          <h2 class="text-adelle text-[32px] lg:text-[56px] text-[#231F20] leading-none">
+            Programa de <br> <span class="font-bold">intercambio estudiantil</span></h2>
+          <p class="text-[#5F6480]">Para conectar a nuestra comunidad estudiantil con el mundo, UTEC permite a los
+            estudiantes de todas las
+            carreras que cuentan con 100 créditos aprobados realizar estudios en universidades con las que UTEC tiene
+            convenio. Esta experiencia te brindará
+            la posibilidad de unirte a una comunidad global y ampliar tus horizontes académicos.</p>
+          <div
+            class="flex justify-between lg:gap-[32px] flex-wrap lg:flex-nowrap aos-init aos-animate my-4 lg:mt-8 order-1 lg:order-none"
+            data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-once="true">
+            <div class="w-[50%] lg:max-w-[152px] pr-4 lg:pr-0 pb-10 lg:pb-0 flex flex-col items-start">
+              <i class="ri-trophy-line text-[40px] leading-none pb-2 inline-block"></i>
+              <div class="border-t border-[#231F20] pt-2">
+                <p class="text-adelle text-[#231F20] text-[32px] leading-[40px] font-bold mb-2 lg:mb-[13px]">
+                  0<span class="text-[#00BFFF]">.</span>1</p>
+              </div>
+              <p class="text-stag text-[#231F20] text-[14px] leading-[20px]">Estudiantes con experiencia internacional
+              </p>
+            </div>
+            <div class="w-[50%] lg:max-w-[172px] pl-4 lg:pl-0 pb-10 lg:pb-0 flex flex-col items-start">
+              <i class="ri-briefcase-3-line text-[40px] pb-2 inline-block leading-none"></i>
+              <div class="border-t border-[#231F20] pt-2">
+                <p class="text-adelle text-[#231F20] text-[32px] leading-[40px] font-bold mb-2 lg:mb-[13px]">
+                  94<span class="text-[#00BFFF]">%</span></p>
+              </div>
+              <p class="text-stag text-[#231F20] text-[14px] leading-[20px]">Intercambios con universidades de alto
+                prestigio</p>
+            </div>
+            <div class="w-[50%] lg:max-w-[152px] pr-4 lg:pr-0 flex flex-col items-start">
+              <img src="./assets/img/globe-1.svg" class="w-[40px] pb-2 inline-block" alt="">
+              <div class="border-t border-[#231F20] pt-2">
+                <p class="text-adelle text-[#231F20] text-[32px] leading-[40px] font-bold mb-2 lg:mb-[13px]">
+                  250<span class="text-[#00BFFF]">+</span></p>
+              </div>
+              <p class="text-stag text-[#231F20] text-[14px] leading-[20px]">Oportunidades de formación con la obtención
+                de un doble grado</p>
+            </div>
+            <div class="w-[50%] lg:max-w-[172px] pl-4 lg:pl-0 flex flex-col items-start">
+              <img src="./assets/img/globe-2.svg" class="w-[40px] pb-2 inline-block" alt="">
+              <div class="border-t border-[#231F20] pt-2">
+                <p class="text-adelle text-[#231F20] text-[32px] leading-[40px] font-bold mb-2 lg:mb-[13px]">
+                  700<span class="text-[#00BFFF]">+</span></p>
+              </div>
+              <p class="text-stag text-[#231F20] text-[14px] leading-[20px]">Estudiantes han tenido experiencia
+                internacionales</p>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-grow w-fit">
+            <span>Ver convenios</span>
+            <i class="ri-arrow-right-up-line text-[20px]"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-[#00BFFF] w-full lg:h-[288px]">
+    <div
+      class="lg:pl-[calc((100vw-1024px)/2)] xl:pl-[calc((100vw-1280px)/2)] 2xl:pl-[calc((100vw-1536px)/2)] flex justify-between flex-col lg:flex-row">
+      <div
+        class="pt-[75px] pb-[132px] lg:h-[288px] flex items-center px-[1rem] sm:px-[2rem] lg:px-[4rem] xl:pl-[5rem] 2xl:pl-[6rem] lg:py-[32px] xl:py-[56px] relative flex-1">
+        <img src="assets/img/ilustration2.svg" alt="ilustration2"
+          class="absolute h-[288px] lg:h-full bottom-0 lg:bottom-auto lg:top-0 right-0">
+        <div class="relative z-[1] lg:max-w-[70%] xl:max-w-[60%]">
+          <h3 class="text-adelle text-[#231F20] text-[32px] lg:text-[36px] leading-[40px] mb-1"> <span
+              class="font-bold">¡Únete</span> a UTEC!</h3>
+          <p class="text-stag text-[#231F20] text-[16px] leading-[20px] tracking-[0.2px] mb-[32px]">Conoce toda la
+            oferta de nuestras carreras y postula.</p>
+          <div class="flex flex-col lg:flex-row gap-6 lg:gap-4">
+            <button class="btn btn-grow btn-secundary">
+              Postular <i class="ri-arrow-right-up-line text-[20px]"></i>
+            </button>
+            <button class="btn btn-border">
+              Ver modalidades <i class="ri-arrow-right-up-line text-[20px]"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="relative h-[288px]">
+        <div
+          class="h-[328px] w-[293px] overflow-hidden absolute bottom-0 left-2/4 translate-x-[-50%] lg:translate-x-0 lg:left-auto lg:right-[75%]">
+          <img src="assets/img/bg-unete-utec.png" alt="person" data-aos="fade-up" data-aos-offset="500"
+            data-aos-duration="500" data-aos-once="true">
+        </div>
+        <img src="assets/img/bg-unete-utec-img.png" alt="admisionRight" class="w-full h-full object-cover">
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-[#231F20] relative">
+    <img class="bottom-0 right-0 absolute" src="./assets/img/footer.png" alt="">
+    <div class="container pt-[72px] lg:pt-28 relative">
+      <div class="flex md:items-center flex-col md:flex-row justify-between">
+        <h2 class="text-white text-[32px] lg:text-[48px] leading-tight text-adelle mb-8 md:mb-0">¿Tienes dudas?</h2>
+        <a class="flex items-center justify-center gap-3 h-[54px] px-[28px] rounded-xl bg-white" href="">
+          <img src="./assets/img/wsp.svg" alt="">
+          <span class="text-[#231F20] text-adelle text-lg font-semibold pt-1">Enviar WhatsApp</span>
+        </a>
+      </div>
+      <div class="flex flex-col lg:flex-row justify-between pt-[36px] lg:pt-[72px]">
+        <div>
+          <img class="h-[56px]" src="./assets/img/logo-white.svg" alt="">
+          <div class="pt-10 lg:pt-8 text-[#A3A2A2] lg:text-[#CADAEF] text-stag text-sm">
+            <p>Jr. Medrano Silva 165, Barranco, Lima, Perú</p>
+            <p>(511)230-5020 / (511)230-5000</p>
+            <p>informes@utec.edu.pe</p>
+          </div>
+        </div>
+        <div class="lg:hidden flex items-center gap-3 py-14">
+          <p class="text-white text-xs lg:text-sm text-stag opacity-80 lg:font-semibold">Síguenos:</p>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-tiktok-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-youtube-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-spotify-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-twitter-fill"></i>
+          </a>
+        </div>
+        <div class="flex items-start flex-col md:flex-row gap-[20px] lg:gap-[32px]">
+          <div>
+            <p class="text-lg text-[#00BFFF] font-medium text-stag mb-4">Accesos</p>
+            <div class="flex flex-col gap-[20px]">
+              <a class="text-white text-sm" href="">Pregrado</a>
+              <a class="text-white text-sm" href="">Posgrado</a>
+              <a class="text-white text-sm" href="">Investigación</a>
+              <a class="text-white text-sm" href="">Ventures</a>
+            </div>
+          </div>
+          <div>
+            <p class="text-lg text-[#00BFFF] font-medium text-stag mb-4">Sobre UTEC</p>
+            <div class="flex items-start flex-col md:flex-row gap-[22px]">
+              <div class="flex flex-col gap-[20px] lg:max-w-[112px]">
+                <a class="text-white text-sm" href="">¿Por qué UTEC?</a>
+                <a class="text-white text-sm" href="">Admisión</a>
+                <a class="text-white text-sm" href="">Visita el Campus</a>
+                <a class="text-white text-sm" href="">Convenios internacionales</a>
+              </div>
+              <div class="flex flex-col gap-[20px] lg:max-w-[112px]">
+                <a class="text-white text-sm" href="">Blog y noticias</a>
+                <a class="text-white text-sm" href="">Eventos</a>
+                <a class="text-white text-sm" href="">Preguntas frecuentes</a>
+                <a class="text-white text-sm" href="">Trabaja con nosotros</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <p class="text-lg text-[#00BFFF] font-medium text-stag mb-4">Legales</p>
+            <div class="flex flex-col gap-[20px]">
+              <a class="text-white text-sm" href="">Reglamentos</a>
+              <a class="text-white text-sm" href="">Políticas</a>
+              <a class="text-white text-sm" href="">Transparencia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between py-[39px] lg:pt-28 lg:pb-[77px]">
+        <p class="text-xs text-white text-stag">Copyright 2023 UTEC. All rights reserved</p>
+        <div class="hidden lg:flex items-center gap-3">
+          <p class="text-white text-xs lg:text-xs text-stag opacity-80 font-semibold">Síguenos:</p>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-facebook-circle-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-tiktok-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-youtube-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-spotify-fill"></i>
+          </a>
+          <a class="text-2xl text-white" href="">
+            <i class="ri-twitter-fill"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="w-full h-4 bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF]"></div>
+  </footer>
+
+  <div class="fixed right-[11px] lg:right-[26px] bottom-[30px] z-[9]">
+    <a href="">
+      <img class="h-[61px] w-[61px] lg:w-[77px] lg:h-[77px]" src="./assets/img/icon-wsp.svg" alt="">
+    </a>
+  </div>
+
+  <!-- Modals -->
+  <div class="c-modal c-modal--menu modal micromodal-slide" id="modal-menu" aria-hidden="true">
+    <div class="modal__overlay c-modal--right" tabindex="-1" data-micromodal-close>
+      <div class="modal__container w-full" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <div class="flex items-center justify-between h-[96px] px-5 lg:px-10 border-b border-[#CADAEF] bg-white">
+            <div>
+              <img class="h-[44px]" src="./assets/img/logo-mobile.svg" alt="">
+            </div>
+            <div class="flex items-center gap-4">
+              <a href="#" data-micromodal-trigger="modal-search">
+                <i class="ri-search-line text-[32px]"></i>
+              </a>
+              <a aria-label="Close modal" data-micromodal-close>
+                <i class="ri-close-line text-[32px]"></i>
+              </a>
+            </div>
+          </div>
+          <div class="h-[calc(100vh-96px)] px-10">
+            <div class="h-[calc(100vh-170px)] relative">
+              <div class="flex flex-col gap-6 pt-6 tabs">
+                <div class="section-container" id="sectionContainer1">
+                  <button id="showButton1" class="show-button flex items-center justify-between w-full">
+                    <span class="text-lg text-[#231F20] text-adelle">Conócenos</span>
+                    <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                  <div class="absolute bg-[#F3F8FF] top-0 right-0 pt-6 left-0 bottom-0 section-content"
+                    id="sectionContent1">
+                    <div class="h-[calc(100vh-296px)] relative">
+                      <button class="hide-button flex items-center gap-2 mb-6" id="hideButton1">
+                        <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                        <span class="text-adelle text-[#231F20] font-bold">Conócenos</span>
+                      </button>
+                      <div class="flex flex-col gap-6">
+                        <div class="section-container" id="sectionContainer2">
+                          <button id="showButton2" class="show-button flex items-center justify-between w-full">
+                            <span class="text-lg text-[#231F20] text-adelle">Nosotros</span>
+                            <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                          </button>
+                          <div class="absolute bg-[#F3F8FF] top-0 right-0 left-0 bottom-0 section-content"
+                            id="sectionContent2">
+                            <button class="hide-button flex items-center gap-2 mb-6" id="hideButton2">
+                              <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                              <span class="text-adelle text-[#231F20] font-bold">Nosotros</span>
+                            </button>
+                            <div class="flex flex-col gap-6 h-[calc(100vh-360px)] overflow-auto">
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Misión y visión</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Metodología</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Transformación educativa</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Beneficios</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Autoridades</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Contacto</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="section-container" id="sectionContainer3">
+                          <button id="showButton3" class="show-button flex items-center justify-between w-full">
+                            <span class="text-lg text-[#231F20] text-adelle">Campus</span>
+                            <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                          </button>
+                          <div class="absolute bg-[#F3F8FF] top-0 right-0 left-0 bottom-0 section-content"
+                            id="sectionContent3">
+                            <button class="hide-button flex items-center gap-2 mb-6" id="hideButton3">
+                              <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                              <span class="text-adelle text-[#231F20] font-bold">Campus</span>
+                            </button>
+                            <div class="flex flex-col gap-6 h-[calc(100vh-360px)] overflow-auto">
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Infraestructura</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Visita presencial</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Recorrido virtual</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Eventos</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="section-container" id="sectionContainer4">
+                          <button id="showButton3" class="show-button flex items-center justify-between w-full">
+                            <span class="text-lg text-[#231F20] text-adelle">Vida Universitaria</span>
+                            <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                          </button>
+                          <div class="absolute bg-[#F3F8FF] top-0 right-0 left-0 bottom-0 section-content"
+                            id="sectionContent4">
+                            <button class="hide-button flex items-center gap-2 mb-6" id="hideButton4">
+                              <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                              <span class="text-adelle text-[#231F20] font-bold">Vida Universitaria</span>
+                            </button>
+                            <div class="flex flex-col gap-6 h-[calc(100vh-360px)] overflow-auto">
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Bienestar Estudiantil</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Semana Universitaria</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Inclusión</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Deportes</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Blog y noticias</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mt-4">
+                      <button
+                        class="gap-6 w-full flex items-center justify-center transition duration-150 text-[#231F20] px-[28px] h-[56px] text-adelle bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] rounded-xl font-bold hover:from-[#00BFFF] hover:to-[#00BFFF]  hover:px-[48px] duration-700 transition ease-in-out hover:transition-all hover:duration-700 hover:text-white">
+                        <span>Postular</span>
+                        <i class="ri-arrow-right-up-line text-xl"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-container" id="sectionContainer5">
+                  <button id="showButton5" class="show-button flex items-center justify-between w-full">
+                    <span class="text-lg text-[#231F20] text-adelle">Estudia con nosotros</span>
+                    <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                  </button>
+                  <div class="absolute bg-[#F3F8FF] top-0 right-0 pt-6 left-0 bottom-0 section-content"
+                    id="sectionContent5">
+                    <div class="h-[calc(100vh-296px)] relative">
+                      <button class="hide-button flex items-center gap-2 mb-6" id="hideButton5">
+                        <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                        <span class="text-adelle text-[#231F20] font-bold">Estudia con nosotros</span>
+                      </button>
+                      <div class="flex flex-col gap-6">
+                        <div class="section-container" id="sectionContainer6">
+                          <button id="showButton6" class="show-button flex items-center justify-between w-full">
+                            <span class="text-lg text-[#231F20] text-adelle">Pregrado</span>
+                            <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                          </button>
+                          <div class="absolute bg-[#F3F8FF] top-0 right-0 left-0 bottom-0 section-content"
+                            id="sectionContent6">
+                            <button class="hide-button flex items-center gap-2 mb-6" id="hideButton6">
+                              <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                              <span class="text-adelle text-[#231F20] font-bold">Pregrado</span>
+                            </button>
+                            <div class="flex flex-col gap-6 h-[calc(100vh-360px)] overflow-auto">
+                              <div class="section-container" id="sectionContainer7">
+                                <button id="showButton7" class="show-button flex items-center justify-between w-full">
+                                  <span class="text-lg text-[#231F20] text-adelle">Admisión</span>
+                                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                </button>
+                                <div class="absolute bg-[#F3F8FF] top-0 right-0 left-0 bottom-0 section-content"
+                                  id="sectionContent7">
+                                  <button class="hide-button flex items-center gap-2 mb-6" id="hideButton7">
+                                    <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                                    <span class="text-adelle text-[#231F20] font-bold">Admisión</span>
+                                  </button>
+                                  <div class="flex flex-col gap-6 h-[calc(100vh-360px)] overflow-auto">
+                                    <a class="flex items-center justify-between w-full">
+                                      <span class="text-lg text-[#231F20] text-adelle">Calendario académico</span>
+                                      <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                    </a>
+                                    <a class="flex items-center justify-between w-full">
+                                      <span class="text-lg text-[#231F20] text-adelle">Metodología</span>
+                                      <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                    </a>
+                                    <a class="flex items-center justify-between w-full">
+                                      <span class="text-lg text-[#231F20] text-adelle">Modalidades de admisión</span>
+                                      <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                    </a>
+                                    <a class="flex items-center justify-between w-full">
+                                      <span class="text-lg text-[#231F20] text-adelle">Tarifario de pensiones</span>
+                                      <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                    </a>
+                                    <a class="flex items-center justify-between w-full">
+                                      <span class="text-lg text-[#231F20] text-adelle">Apoyo financiero</span>
+                                      <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="section-container" id="sectionContainer8">
+                                <button id="showButton8" class="show-button flex items-center justify-between w-full">
+                                  <span class="text-lg text-[#231F20] text-adelle">Carreras</span>
+                                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                </button>
+                                <div class="absolute bg-[#F3F8FF] top-0 right-0 left-0 bottom-0 section-content"
+                                  id="sectionContent8">
+                                  <button class="hide-button flex items-center gap-2 mb-6" id="hideButton8">
+                                    <i class="ri-arrow-left-line text-2xl text-[#00BFFF]"></i>
+                                    <span class="text-adelle text-[#231F20] font-bold">Carreras</span>
+                                  </button>
+                                  <div class="h-[calc(100vh-360px)] overflow-auto">
+                                    <div class="flex flex-col gap-6 pb-6 border-b boder-[#CADAEF]">
+                                      <p class="text-[#231F20] text-adelle text-lg font-semibold">Facultad de Ingeniería
+                                      </p>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Bioingeniería</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería Ambiental</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería Civil</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería de la Energía</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería Electrónica</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería Industrial</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería Mecánica</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería Mecatrónica</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ingeniería Química</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                    </div>
+                                    <div class="flex flex-col gap-6 py-6 border-b boder-[#CADAEF]">
+                                      <p class="text-[#231F20] text-adelle text-lg font-semibold">Facultad de
+                                        Computación</p>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ciencia de la
+                                          Computación</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Ciencia de Datos</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Sistemas de Información</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                    </div>
+                                    <div class="flex flex-col gap-6 py-6 border-b boder-[#CADAEF]">
+                                      <p class="text-[#231F20] text-adelle text-lg font-semibold">Facultad de
+                                        Administración y Negocios</p>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Administración y Negocios
+                                          Digitales</span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                      <a class="flex items-center justify-between w-full">
+                                        <span class="text-lg text-[#231F20] text-adelle">Administración y Negocios
+                                          Internacionales <span
+                                            class="text-[10px] bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] font-semibold px-[6px] py-[2px] rounded-full">Nueva</span></span>
+                                        <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                                      </a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Convenios internacionales</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                              <a class="flex items-center justify-between w-full">
+                                <span class="text-lg text-[#231F20] text-adelle">Bolsa de trabajo</span>
+                                <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="flex items-center justify-between w-full">
+                          <span class="text-lg text-[#231F20] text-adelle">Posgrado</span>
+                          <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="mt-4">
+                      <button
+                        class="gap-6 w-full flex items-center justify-center transition duration-150 text-[#231F20] px-[28px] h-[56px] text-adelle bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] rounded-xl font-bold hover:from-[#00BFFF] hover:to-[#00BFFF]  hover:px-[48px] duration-700 transition ease-in-out hover:transition-all hover:duration-700 hover:text-white">
+                        <span>Postular</span>
+                        <i class="ri-arrow-right-up-line text-xl"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <button class="flex items-center justify-between w-full">
+                  <span class="text-lg text-[#231F20] text-adelle">Investigación en UTEC</span>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </button>
+                <button class="flex items-center justify-between w-full">
+                  <span class="text-lg text-[#231F20] text-adelle">Emprende en Ventures</span>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </button>
+              </div>
+            </div>
+            <div class="border-t border-[#CADAEF] flex items-center justify-between pt-[22px]">
+              <a class="py-[10px] text-sm text-[#231F20] text-stag" href="">Estudiantes</a>
+              <a class="py-[10px] text-sm text-[#231F20] text-stag" href="">Docentes</a>
+              <a class="py-[10px] text-sm text-[#231F20] text-stag" href="">Alumni</a>
+              <a class="py-[10px] text-sm text-[#231F20] text-stag" href="">Intranet</a>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <div class="c-modal c-modal--menu modal micromodal-slide" id="modal-search" aria-hidden="true">
+    <div class="modal__overlay c-modal--right" tabindex="-1" data-micromodal-close>
+      <div class="modal__container w-full" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <div class="flex items-center justify-between h-[96px] px-5 lg:px-10 border-b border-[#CADAEF] bg-white">
+            <a aria-label="Close modal" data-micromodal-close>
+              <i class="ri-arrow-left-s-line text-[32px]"></i>
+            </a>
+            <div class="w-full pl-2">
+              <input
+                class="w-full border border-[#CADAEF] text-sm h-[44px] px-4 rounded-xl text-stag placeholder:text-[#5F6480] outline-none"
+                type="text" placeholder="¿Qué estás buscando?">
+            </div>
+          </div>
+          <div class="h-[calc(100vh-96px)] px-10">
+            <h3 class="text-[#231F20] text-adelle font-bold py-6">Resultados de búsqueda</h3>
+            <div class="h-[calc(100vh-174px)] overflow-auto">
+              <div class="flex flex-col gap-6">
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+                <div class="flex justify-between items-start cursor-pointer gap-10">
+                  <div>
+                    <p class="text-stag text-sm text-[#4E4B4C]">Carreras de Ingeniería</p>
+                    <p class="text-stag text-sm text-[#4E4B4C] py-2">Conoce nuestra oferta completa de carreras</p>
+                  </div>
+                  <i class="ri-arrow-right-line text-2xl text-[#00BFFF]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <div class="c-modal--postulate modal micromodal-slide" id="modal-infraestructura-campus" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div
+        class="w-full modal__container !rounded-t-2xl border-t-[6px] border-[#00BFFF] lg:!rounded-none lg:!border-t-[0]"
+        role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <a class="right-[15px] absolute cursor-pointer" aria-label="Close modal" data-micromodal-close="">
+            <i class="ri-close-line text-[32px]"></i>
+          </a>
+          <div class="px-[32px] lg:pr-[61px] lg:pl-0">
+            <div class="rounded-br-2xl h-[253px] hidden lg:block">
+              <img class="w-full h-full object-cover rounded-br-2xl" src="./assets/img/infra-campus.png" alt="">
+            </div>
+            <div class="lg:pl-[72px] pt-[72px] lg:pt-0 lg:mt-[-60px] relative">
+              <div class="lg:max-w-[649px] w-full rounded-2xl bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] p-6">
+                <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                  Infraestructura de Campus</h3>
+              </div>
+              <div class="pt-[26px]">
+                <div class="flex items-start gap-4 mb-2">
+                  <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                  <p class="text-[#5F6480] text-lg text-stag">Se generan interacciones directas entre docentes y
+                    estudiantes en espacios físicos aprovechando la infraestructura del campus de la universidad.</p>
+                </div>
+                <div class="flex items-start gap-4 mb-2">
+                  <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                  <p class="text-[#5F6480] text-lg text-stag">Contamos con talleres y laboratorios equipados con
+                    tecnología de última generación en áreas especializadas para que nuestros estudiantes estén en
+                    contacto con herramientas claves de cada industria</p>
+                </div>
+              </div>
+              <button class="btn btn-grow btn-secundary btn-small mt-10">
+                <span>Hacer un recorrido virtual</span>
+                <i class="ri-arrow-right-up-line text-xl"></i>
+              </button>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <div class="c-modal--postulate modal micromodal-slide" id="modal-metodologia" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div
+        class="w-full modal__container relative !rounded-t-2xl border-t-[6px] border-[#00BFFF] lg:!rounded-none lg:!border-t-[0]"
+        role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <a class="right-[15px] absolute cursor-pointer" aria-label="Close modal" data-micromodal-close="">
+            <i class="ri-close-line text-[32px]"></i>
+          </a>
+          <div class="px-[32px] lg:pr-[61px] lg:pl-0">
+            <div class="rounded-br-2xl h-[253px] hidden lg:block">
+              <img class="w-full h-full object-cover rounded-br-2xl" src="./assets/img/infra-campus.png" alt="">
+            </div>
+            <div class="lg:pl-[72px] pt-[72px] lg:pt-0 lg:mt-[-60px] relative">
+              <div class="lg:max-w-[649px] w-full rounded-2xl bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] p-6">
+                <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                  Metodología de enseñanza</h3>
+              </div>
+              <div class="accordion" id="accordionQuestion">
+                <div class="accordion-item border-b border-[#CADAEF] active">
+                  <div class="accordion-header py-8 cursor-pointer gap-6 items-center flex justify-between">
+                    <span class="text-[#231F20] text-xl text-adelle font-semibold">Ciclos 1-2</span>
+                    <span class="accordion-arrow h-fit">
+                      <i class="ri-arrow-down-s-line text-[#00BFFF] text-2xl leading-none"></i>
+                    </span>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="pb-8 mb-8 flex flex-col lg:flex-row">
+                      <ul class="list-disc ml-5 text-[#5F6480] text-[18px] leading-[24px] lg:w-[50%]">
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                      </ul>
+                      <ul class="list-disc ml-5 text-[#5F6480] text-[18px] leading-[24px] lg:w-[50%]">
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-b border-[#CADAEF]">
+                  <div class="accordion-header py-8 cursor-pointer gap-6 items-center flex justify-between">
+                    <span class="text-[#231F20] text-xl text-adelle font-semibold">Ciclos 3-4</span>
+                    <span class="accordion-arrow h-fit">
+                      <i class="ri-arrow-down-s-line text-[#00BFFF] text-2xl leading-none"></i>
+                    </span>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="pb-8 mb-8 flex flex-col lg:flex-row">
+                      <ul class="list-disc ml-5 text-[#5F6480] text-[18px] leading-[24px] lg:w-[50%]">
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                      </ul>
+                      <ul class="list-disc ml-5 text-[#5F6480] text-[18px] leading-[24px] lg:w-[50%]">
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border-b border-[#CADAEF]">
+                  <div class="accordion-header py-8 cursor-pointer gap-6 items-center flex justify-between">
+                    <span class="text-[#231F20] text-xl text-adelle font-semibold">Ciclos 5-10</span>
+                    <span class="accordion-arrow h-fit">
+                      <i class="ri-arrow-down-s-line text-[#00BFFF] text-2xl leading-none"></i>
+                    </span>
+                  </div>
+                  <div class="accordion-content">
+                    <div class="pb-8 mb-8 flex flex-col lg:flex-row">
+                      <ul class="list-disc ml-5 text-[#5F6480] text-[18px] leading-[24px] lg:w-[50%]">
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                      </ul>
+                      <ul class="list-disc ml-5 text-[#5F6480] text-[18px] leading-[24px] lg:w-[50%]">
+                        <li>Aprendizaje cooperativo</li>
+                        <li>Team Based Learning</li>
+                        <li> Aprendizaje basado en problemas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <div class="h-[146px] sticky bottom-0 w-full left-0 bg-gradient-to-t from-white pointer-events-none">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="c-modal--postulate modal micromodal-slide" id="modal-flexibilidad" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div
+        class="w-full modal__container !rounded-t-2xl border-t-[6px] border-[#00BFFF] lg:!rounded-none lg:!border-t-[0]"
+        role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <a class="right-[15px] absolute cursor-pointer" aria-label="Close modal" data-micromodal-close="">
+            <i class="ri-close-line text-[32px]"></i>
+          </a>
+          <div class="px-[32px] lg:pr-[61px] lg:pl-0">
+            <div class="rounded-br-2xl h-[253px] hidden lg:block">
+              <img class="w-full h-full object-cover rounded-br-2xl" src="./assets/img/flexibilidad.png" alt="">
+            </div>
+            <div class="lg:pl-[72px] pt-[72px] lg:pt-0 lg:mt-[-60px] relative">
+              <div class="lg:max-w-[649px] w-full rounded-2xl bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] p-6">
+                <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                  Flexibilidad</h3>
+              </div>
+              <div class="pt-[26px]">
+                <div class="flex items-start gap-4 mb-2">
+                  <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                  <p class="text-[#5F6480] text-lg text-stag">Se generan interacciones directas entre docentes y
+                    estudiantes en espacios físicos aprovechando la infraestructura del campus de la universidad.</p>
+                </div>
+                <div class="flex items-start gap-4 mb-2">
+                  <i class="ri-arrow-right-line text-xl text-[#00BFFF]"></i>
+                  <p class="text-[#5F6480] text-lg text-stag">Contamos con talleres y laboratorios equipados con
+                    tecnología de última generación en áreas especializadas para que nuestros estudiantes estén en
+                    contacto con herramientas claves de cada industria</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  <div class="c-modal--postulate c-modal--profile__postulate modal micromodal-slide" id="modal-profile"
+    aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div
+        class="w-full modal__container !rounded-t-2xl border-t-[6px] border-[#00BFFF] lg:!rounded-none lg:!border-t-[0]"
+        role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content" id="modal-1-content">
+          <a class="right-[15px] absolute cursor-pointer z-10" aria-label="Close modal" data-micromodal-close="">
+            <i class="ri-close-line text-[32px]"></i>
+          </a>
+          <div class="lg:px-[120px] swiper-vertical h-screen">
+            <div class="swiper mySwiperVertical h-screen">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide lg:h-[80%] lg:max-h-[655px]">
+                  <div class="h-full lg:max-h-[655px]">
+                    <div
+                      class="h-full lg:max-h-[655px] overflow-auto lg:overflow-visible px-5 lg:px-0 block lg:flex lg:items-center lg:gap-8 xl:gap-[59px] relative text-center lg:text-start">
+                      <div
+                        class="w-[300px] h-[360px] lg:w-fit lg:min-w-[480px] lg:h-full max-h-[655px] swiper-vertical--img mb-[48px] mx-auto lg:m-0 pt-[30px] lg:pt-0">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./assets/img/profile-modal.png" alt="">
+                      </div>
+                      <div class="w-full lg:max-h-[110%] swiper-vertical--content">
+                        <div class="w-full rounded-2xl bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] p-6">
+                          <h3 class="text-xl leading-none text-adelle font-bold text-[#231F20]">
+                            Nadia Guevara Saénz 2</h3>
+                          <p class="text-[#231F20] text-[28px] lg:text-[32px] text-adelle leading-tight">1er Puesto
+                            Concurso Proyectos
+                            de Biogenética</p>
+                          <p class="text-stag lg:text-sm text-[#231F20]">iGEM Design League</p>
+                        </div>
+                        <div class="xl:pl-[60px] pb-28 lg:pb-0">
+                          <div class="pt-[30px] min-h-[360px] text-start">
+                            <p class="text-[#5F6480]">MBA, Marketing y Gestión de Tecnologías de la Información. Ha
+                              culminado el doctorado en Administración, con una investigación en estrategias de
+                              promoción de consumo sostenible, en estudiantes universitarios. Marketero de profesión,
+                              con más de 20 años de experiencia ocupando puestos gerenciales en empresas de innovación.
+                              Fue parte del equipo pionero que implementó el Internet en Perú, así como de la primera
+                              empresa latinoamericana en ofrecer servicios de Geo-Business Intelligence. Consultor
+                              nacional e internacional, cuenta con 15 años de experiencia académica, como docente y como
+                              director de carreras universitarias.</p>
+                          </div>
+                          <div class="hidden lg:flex items-center justify-between border-t border-[#CADAEF] pt-[30px]">
+                            <div class="swiper-pagination !w-auto !font-bold relative"></div>
+                            <div class="swiper-vertical--arrow">
+                              <div
+                                class="swiper-button-prev-vert swiper-button  swiper-prev w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                              </div>
+                              <div
+                                class="swiper-button-next-vert swiper-button  swiper-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide lg:h-[80%] lg:max-h-[655px]">
+                  <div class="h-full lg:max-h-[655px]">
+                    <div
+                      class="h-full lg:max-h-[655px] overflow-auto lg:overflow-visible px-5 lg:px-0 block lg:flex lg:items-center lg:gap-8 xl:gap-[59px] relative text-center lg:text-start">
+                      <div
+                        class="w-[300px] h-[360px] lg:w-fit lg:min-w-[480px] lg:h-full max-h-[655px] swiper-vertical--img mb-[48px] mx-auto lg:m-0 pt-[30px] lg:pt-0">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./assets/img/profile-modal.png" alt="">
+                      </div>
+                      <div class="w-full lg:max-h-[110%] swiper-vertical--content">
+                        <div class="w-full rounded-2xl bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] p-6">
+                          <h3 class="text-xl leading-none text-adelle font-bold text-[#231F20]">
+                            Nadia Guevara Saénz 2</h3>
+                          <p class="text-[#231F20] text-[28px] lg:text-[32px] text-adelle leading-tight">1er Puesto
+                            Concurso Proyectos
+                            de Biogenética</p>
+                          <p class="text-stag lg:text-sm text-[#231F20]">iGEM Design League</p>
+                        </div>
+                        <div class="xl:pl-[60px] pb-28 lg:pb-0">
+                          <div class="pt-[30px] min-h-[360px] text-start">
+                            <p class="text-[#5F6480]">MBA, Marketing y Gestión de Tecnologías de la Información. Ha
+                              culminado el doctorado en Administración, con una investigación en estrategias de
+                              promoción de consumo sostenible, en estudiantes universitarios. Marketero de profesión,
+                              con más de 20 años de experiencia ocupando puestos gerenciales en empresas de innovación.
+                              Fue parte del equipo pionero que implementó el Internet en Perú, así como de la primera
+                              empresa latinoamericana en ofrecer servicios de Geo-Business Intelligence. Consultor
+                              nacional e internacional, cuenta con 15 años de experiencia académica, como docente y como
+                              director de carreras universitarias.</p>
+                          </div>
+                          <div class="hidden lg:flex items-center justify-between border-t border-[#CADAEF] pt-[30px]">
+                            <div class="swiper-pagination !w-auto !font-bold relative"></div>
+                            <div class="swiper-vertical--arrow">
+                              <div
+                                class="swiper-button-prev-vert swiper-button  swiper-prev w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                              </div>
+                              <div
+                                class="swiper-button-next-vert swiper-button  swiper-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide lg:h-[80%] lg:max-h-[655px]">
+                  <div class="h-full lg:max-h-[655px]">
+                    <div
+                      class="h-full lg:max-h-[655px] overflow-auto lg:overflow-visible px-5 lg:px-0 block lg:flex lg:items-center lg:gap-8 xl:gap-[59px] relative text-center lg:text-start">
+                      <div
+                        class="w-[300px] h-[360px] lg:w-fit lg:min-w-[480px] lg:h-full max-h-[655px] swiper-vertical--img mb-[48px] mx-auto lg:m-0 pt-[30px] lg:pt-0">
+                        <img class="w-full h-full object-cover rounded-2xl" src="./assets/img/profile-modal.png" alt="">
+                      </div>
+                      <div class="w-full lg:max-h-[110%] swiper-vertical--content">
+                        <div class="w-full rounded-2xl bg-gradient-to-r from-[#00BFFF] to-[#0FF0FF] p-6">
+                          <h3 class="text-xl leading-none text-adelle font-bold text-[#231F20]">
+                            Nadia Guevara Saénz 2</h3>
+                          <p class="text-[#231F20] text-[28px] lg:text-[32px] text-adelle leading-tight">1er Puesto
+                            Concurso Proyectos
+                            de Biogenética</p>
+                          <p class="text-stag lg:text-sm text-[#231F20]">iGEM Design League</p>
+                        </div>
+                        <div class="xl:pl-[60px] pb-28 lg:pb-0">
+                          <div class="pt-[30px] min-h-[360px] text-start">
+                            <p class="text-[#5F6480]">MBA, Marketing y Gestión de Tecnologías de la Información. Ha
+                              culminado el doctorado en Administración, con una investigación en estrategias de
+                              promoción de consumo sostenible, en estudiantes universitarios. Marketero de profesión,
+                              con más de 20 años de experiencia ocupando puestos gerenciales en empresas de innovación.
+                              Fue parte del equipo pionero que implementó el Internet en Perú, así como de la primera
+                              empresa latinoamericana en ofrecer servicios de Geo-Business Intelligence. Consultor
+                              nacional e internacional, cuenta con 15 años de experiencia académica, como docente y como
+                              director de carreras universitarias.</p>
+                          </div>
+                          <div class="hidden lg:flex items-center justify-between border-t border-[#CADAEF] pt-[30px]">
+                            <div class="swiper-pagination !w-auto !font-bold relative"></div>
+                            <div class="swiper-vertical--arrow">
+                              <div
+                                class="swiper-button-prev-vert swiper-button  swiper-prev w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                              </div>
+                              <div
+                                class="swiper-button-next-vert swiper-button  swiper-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="fixed lg:hidden bottom-0 w-full bg-white left-0 flex items-center justify-between border-t border-[#CADAEF] py-[28px] px-5 z-10">
+                <div class="swiper-pagination !w-auto !font-bold relative mt-[15px]"></div>
+                <div class="swiper-vertical--arrow">
+                  <div
+                    class="swiper-button-prev-vert swiper-button swiper-prev w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                  </div>
+                  <div
+                    class="swiper-button-next-vert swiper-button swiper-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative outline-none">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  <div class="c-modal--postulat modal micromodal-slide" id="modal-laboratorio" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div
+        class="w-full h-full lg:h-fit bg-white lg:p-[30px] relative rounded-tl-2xl rounded-tr-2xl  border-t-[6px] rounded-b-none lg:rounded-2xl border-[#00BFFF] lg:!border-t-[0] lg:max-w-[958px]"
+        role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <main class="modal__content my-0" id="modal-1-content">
+          <a class="right-[15px] absolute cursor-pointer z-[999]" aria-label="Close modal" data-micromodal-close="">
+            <i class="ri-close-line text-[32px]"></i>
+          </a>
+          <div class="">
+            <div class="p-[2px] lg:p-[42px] " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500"
+              data-aos-once="true">
+              <div class="swiper mySwiperLaboratorio">
+                <div class="swiper-wrapper lg:pb-[32px]">
+                  <div class="swiper-slide">
+                    <div class="px-5 pt-[30px] lg:p-0 h-screen lg:h-fit overflow-auto lg:overflow-visible">
+                      <div class='mx-auto relative'>
+                        <div class="flex flex-col gap-4 mb-8">
+                          <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                            Laboratorio de Química</h3>
+                          <img class="w-full" src="assets/img/arrow-title.svg" alt="arrow">
+                        </div>
+                        <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px] mb-4">Lorem ipsum
+                          dolor
+                          sit amet,
+                          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex
+                          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                          dolore eu
+                          fugiat nulla pariatur.
+                        </p>
+                      </div>
+                      <div class="h-[307px] lg:h-[333px] mb-[97px] lg:mb-0">
+                        <img src="./assets/img/laboratorio-modal.png" alt=""
+                          class="w-full h-full object-cover rounded-3xl">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="px-5 pt-[30px] lg:p-0 h-screen lg:h-fit overflow-auto lg:overflow-visible">
+                      <div class='mx-auto relative'>
+                        <div class="flex flex-col gap-4 mb-8">
+                          <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                            Laboratorio de Química</h3>
+                          <img class="w-full" src="assets/img/arrow-title.svg" alt="arrow">
+                        </div>
+                        <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px] mb-4">Lorem ipsum
+                          dolor
+                          sit amet,
+                          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex
+                          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                          dolore eu
+                          fugiat nulla pariatur.
+                        </p>
+                      </div>
+                      <div class="h-[307px] lg:h-[333px] mb-[97px] lg:mb-0">
+                        <img src="./assets/img/laboratorio-modal.png" alt=""
+                          class="w-full h-full object-cover rounded-3xl">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="px-5 pt-[30px] lg:p-0 h-screen lg:h-fit overflow-auto lg:overflow-visible">
+                      <div class='mx-auto relative'>
+                        <div class="flex flex-col gap-4 mb-8">
+                          <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                            Laboratorio de Química</h3>
+                          <img class="w-full" src="assets/img/arrow-title.svg" alt="arrow">
+                        </div>
+                        <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px] mb-4">Lorem ipsum
+                          dolor
+                          sit amet,
+                          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex
+                          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                          dolore eu
+                          fugiat nulla pariatur.
+                        </p>
+                      </div>
+                      <div class="h-[307px] lg:h-[333px] mb-[97px] lg:mb-0">
+                        <img src="./assets/img/laboratorio-modal.png" alt=""
+                          class="w-full h-full object-cover rounded-3xl">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="px-5 pt-[30px] lg:p-0 h-screen lg:h-fit overflow-auto lg:overflow-visible">
+                      <div class='mx-auto relative'>
+                        <div class="flex flex-col gap-4 mb-8">
+                          <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                            Laboratorio de Química</h3>
+                          <img class="w-full" src="assets/img/arrow-title.svg" alt="arrow">
+                        </div>
+                        <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px] mb-4">Lorem ipsum
+                          dolor
+                          sit amet,
+                          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex
+                          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                          dolore eu
+                          fugiat nulla pariatur.
+                        </p>
+                      </div>
+                      <div class="h-[307px] lg:h-[333px] mb-[97px] lg:mb-0">
+                        <img src="./assets/img/laboratorio-modal.png" alt=""
+                          class="w-full h-full object-cover rounded-3xl">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="px-5 pt-[30px] lg:p-0 h-screen lg:h-fit overflow-auto lg:overflow-visible">
+                      <div class='mx-auto relative'>
+                        <div class="flex flex-col gap-4 mb-8">
+                          <h3 class="text-[32px] lg:text-[40px] leading-none text-adelle lg:font-bold text-[#231F20]">
+                            Laboratorio de Química</h3>
+                          <img class="w-full" src="assets/img/arrow-title.svg" alt="arrow">
+                        </div>
+                        <p class="text-[#231F20] text-stag text-[16px] leading-[24px] tracking-[0.2px] mb-4">Lorem ipsum
+                          dolor
+                          sit amet,
+                          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                          ut aliquip ex
+                          ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                          dolore eu
+                          fugiat nulla pariatur.
+                        </p>
+                      </div>
+                      <div class="h-[307px] lg:h-[333px] mb-[97px] lg:mb-0">
+                        <img src="./assets/img/laboratorio-modal.png" alt=""
+                          class="w-full h-full object-cover rounded-3xl">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="fixed lg:relative bottom-0 w-full bg-white left-0 flex items-center justify-between border-t border-[#CADAEF] lg:border-none py-[28px] px-5 z-10 lg:p-0">
+                  <div class="swiper-pagination !w-auto !font-bold relative"></div>
+                  <div class="flex flex-row-reverse items-center w-[120px] gap-9 lg:gap-4">
+                    <div
+                      class="swiper-button-next-lab swiper-button swiper-next w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative">
+                    </div>
+                    <div
+                      class="swiper-button-prev-lab swiper-button swiper-prev w-[40px] h-[40px] rounded-full bg-[#BFF0FF] text-[#231F20] relative">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+<style is:global>
+  .pagination--circle .swiper-button-disabled {
+    color: #C8C8C8;
+    background-color: transparent;
+  }
+
+  .pagination--circle .swiper-button-next::after,
+  .pagination--circle .swiper-button-prev::after {
+    font-size: 20px;
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+
+  MicroModal.init({
+    disableScroll: true,
+    disableFocus: true,
+  });
+
+  // header
+  const header = document.getElementById('main-header');
+  let prevScrollPos = window.pageYOffset;
+
+  window.onscroll = function () {
+    const currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos || currentScrollPos <= 138) {
+      header.classList.remove('headerScroll');
+    } else {
+      header.classList.add('headerScroll');
+    }
+
+    prevScrollPos = currentScrollPos;
+  };
+  window.onload = function () {
+    header.classList.remove('headerScroll');
+  };
+
+  // nav
+  document.addEventListener("DOMContentLoaded", function () {
+    const menuItems = document.querySelectorAll(".menu-item");
+
+    document.addEventListener("click", function (event) {
+      if (!event.target.closest("#super-menu")) {
+        menuItems.forEach(function (item) {
+          item.classList.remove("active");
+        });
+      }
+    });
+
+    menuItems.forEach(function (item) {
+      item.addEventListener("click", function (event) {
+        const hasSubmenu = item.querySelector(".submenu");
+        if (hasSubmenu) {
+          event.preventDefault();
+          if (event.target.closest(".submenu")) {
+            return;
+          }
+          menuItems.forEach(function (otherItem) {
+            if (otherItem !== item) {
+              otherItem.classList.remove("active");
+            }
+          });
+          item.classList.toggle("active");
+          const submenu = item.querySelector(".submenu");
+          if (submenu) {
+            submenu.classList.toggle("active");
+          }
+        }
+      });
+    });
+  });
+
+  class ReusableSection {
+    constructor(containerId) {
+      this.container = document.getElementById(containerId);
+      this.showButton = this.container.querySelector('.show-button');
+      this.hideButton = this.container.querySelector('.hide-button');
+      this.sectionContent = this.container.querySelector('.section-content');
+
+      this.showButton.addEventListener('click', () => this.showSection());
+      this.hideButton.addEventListener('click', () => this.hideSection());
+    }
+
+    showSection() {
+      this.sectionContent.style.display = 'block';
+      this.showButton.style.display = 'none';
+      this.hideButton.style.display = 'flex';
+    }
+
+    hideSection() {
+      this.sectionContent.style.display = 'none';
+      this.showButton.style.display = 'flex';
+      this.hideButton.style.display = 'none';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const section1 = new ReusableSection('sectionContainer1');
+    const section2 = new ReusableSection('sectionContainer2');
+    const section3 = new ReusableSection('sectionContainer3');
+    const section4 = new ReusableSection('sectionContainer4');
+    const section5 = new ReusableSection('sectionContainer5');
+    const section6 = new ReusableSection('sectionContainer6');
+    const section7 = new ReusableSection('sectionContainer7');
+    const section8 = new ReusableSection('sectionContainer8');
+  });
+
+  var swiperLaboratorio = new Swiper(".mySwiperLaboratorio", {
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '">' + (index + 1) + "</span>";
+      },
+    },
+    navigation: {
+      nextEl: ".swiper-button-next-lab",
+      prevEl: ".swiper-button-prev-lab",
+    },
+  });
+  var swiperPremios = new Swiper(".mySwiperPremios", {
+    slidesPerView: "1.2",
+    spaceBetween: 25,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination-progressbar",
+      type: "progressbar",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next-prem",
+      prevEl: ".swiper-button-prev-prem",
+    },
+    breakpoints: {
+      1024: {
+        spaceBetween: 50,
+        slidesPerView: "auto",
+      },
+    },
+    on: {
+      slideChange: function () {
+        document.querySelector('.counter-slider').innerHTML = this.realIndex + 1 + "/" + this.loopedSlides
+      },
+      init: function () {
+        document.querySelector('.counter-slider').innerHTML = this.realIndex + 1 + "/" + this.loopedSlides
+      },
+    },
+
+  });
+  var swiperVertical = new Swiper(".mySwiperVertical", {
+    slidesPerView: "auto",
+    direction: "horizontal",
+    spaceBetween: 25,
+    centeredSlides: false,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next-vert",
+      prevEl: ".swiper-button-prev-vert",
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: "auto",
+        direction: "vertical",
+        centeredSlides: true,
+      },
+    },
+  });
+  let abrirModal = document.querySelectorAll('.abrirModal')
+  abrirModal.forEach((a) => {
+    a.addEventListener('click', function (e) {
+      MicroModal.show('modal-profile');
+      swiperVertical.slideTo(this.getAttribute('data-slide') - 1)
+    })
+  })
+  var swiper = new Swiper(".mySwiperCentros", {
+    slidesPerView: "1.2",
+    spaceBetween: 25,
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next-lab",
+      prevEl: ".swiper-button-prev-lab",
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+      },
+    },
+  });
+
+  var swiper = new Swiper(".mySwiperInfraestructura", {
+    slidesPerView: "1.2",
+    spaceBetween: 25,
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: "4",
+        spaceBetween: 16,
+      },
+    },
+  });
+  var swiper = new Swiper(".mySwiperInfraestructura-2", {
+    slidesPerView: "1.2",
+    spaceBetween: 25,
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "fraction",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      1024: {
+        slidesPerView: "2",
+        spaceBetween: 16,
+      },
+    },
+  });
+
+  //counter 
+  function count() {
+    var counter = { var: 0 };
+    TweenMax.to(counter, 3, {
+      var: 100,
+      onUpdate: function () {
+        var number = Math.ceil(counter.var);
+        document.querySelector('.counter').innerHTML = number
+      },
+      ease: Circ.easeOut
+    });
+  }
+
+  let sectionPercentaje = document.querySelector(".section-percentaje");
+  let sectionCounter = false;
+  function f_counter(element) {
+    if (f_isVisible(element)) {
+      count();
+      sectionCounter = true;
+    }
+  }
+  if (sectionPercentaje) {
+    f_counter(sectionPercentaje);
+    document.addEventListener("scroll", function () {
+      if (!sectionCounter) {
+        f_counter(sectionPercentaje);
+      }
+    });
+  }
+  count();
+  let viewSlide = document.querySelectorAll('.viewSlide')
+  viewSlide.forEach((view) => {
+    view.addEventListener('click', function () {
+      let count = this.getAttribute('data-slide')
+      swiperLaboratorio.slideTo(count - 1)
+    })
+  })
+</script>
+
+</html>

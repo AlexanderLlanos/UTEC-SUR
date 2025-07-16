@@ -1,0 +1,60 @@
+/* Botones */
+.btn {
+  display: inline-flex;
+  font-family: "Adelle Rg";
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: 0.75rem;
+  padding-left: 28px;
+  padding-right: 28px;
+  font-weight: 700;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 18px;
+  line-height: 1.75rem;
+  font-weight: 700;
+  transition-duration: .6s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+}
+.btn-grow:hover{
+  padding: 0 2.3rem;
+}
+.btn-primary {
+  background:  linear-gradient(to right, #00BFFF, #0FF0FF);;
+  color: rgb(35 31 32 / 1);
+}
+.btn-primary:hover {
+  background: linear-gradient(to right, #00BFFF, #00BFFF);
+}
+.btn-secundary {
+  background-color: rgb(35 31 32 / 1);
+  color: rgb(255 255 255 / 1);
+}
+.btn-yellow{
+  background-color: #FBBC05;
+}
+.btn-secundary:hover {
+  background-color: rgb(251 188 5 / 1);
+  color: rgb(35 31 32 / 1);
+}
+.btn-medium {
+  height: 56px;
+  font-size: 1rem;
+}
+.btn-small {
+  height: 44px;
+  font-size: 1rem;
+}
+.btn-border {
+  border: 2px solid #231F20;
+  color: rgb(35 31 32 / 1);
+}
+@media (min-width: 768px) {
+  .btn-primary, .btn-secundary, .btn-yellow, .btn-border {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
